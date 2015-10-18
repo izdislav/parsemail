@@ -23,13 +23,13 @@ try
 {
 	$parsemail = new parsemail();
 	
-	$parsemail->parseEmail("./emails/test.eml");
+// 	$parsemail->parseEmail("./emails/message_2.eml");
 	
 // 	$userEmailIds = $parsemail->getEmails("plamen@gmail.com");
 // 	Debug::write($userEmailIds);
 	
-	//$emailsWithHeaderName = $parsemail->getEmailsByHeader("to");
-	//Debug::write($emailsWithHeaderName);
+	$emailsWithHeaderName = $parsemail->getEmailsByHeader("to");
+	Debug::write($emailsWithHeaderName);
 	
 // 	$userEmailCount = $parsemail->getEmails("plamen@gmail.com", false);
 // 	Debug::write($userEmailCount);
@@ -37,13 +37,14 @@ try
 // 	$emailCount = $parsemail->getEmails("", true);
 // 	Debug::write($emailCount);
 	
-// 	$userEmailsPerS�nderDomain = $parsemail->getEmailsPerS�nderDomain();
-// 	Debug::write('$userEmailIds',$userEmailsPerS�nderDomain);
+// 	$userEmailsPerSenderDomain = $parsemail->getEmailsPerSenderDomain("plamen@gmail.com");
+// 	Debug::write('$userEmailIds',$userEmailsPerSenderDomain);
 	
 // 	$emailSpfPassPercent = $parsemail->getEmailsSpfPass("plamen@gmail.com");
 // 	Debug::write('$userEmailIds',$emailSpfPassPercent);
-	
-	$parsemail->getEmailDetails(92);
+	 
+// 	$email = $parsemail->getEmailDetails(47);
+// 	Debug::write($email);
 } 
 catch (Exception $e) 
 {

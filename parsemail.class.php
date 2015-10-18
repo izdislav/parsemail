@@ -1,109 +1,80 @@
 <?php
+/**
+ * Class for parse email and save it into mysql database 
+ * 
+ * Contains some extra methods for retrieve emails form the database in various ways
+ * @author Victor Krastev
+ * @version 1.0
+ *
+ */
 class parsemail
 {
 	private $_db;
 	
-	
+	/**
+	 * Constructor, conects database object
+	 */
 	public function __construct()
 	{
 		$this->_db = new Db();
 	}
 	
+	/**
+	 * Parses and inserts email to database
+	 * @param string $emailFileName path to email file
+	 * @return boolean returns true on success
+	 */
 	public function parseEmail($emailFileName)
 	{
-		$header = new header();
-		$headerName = new headername();
+		if (!file_exists($emailFileName))
+		{
+			throw new Exception("Email file $emailFileName not found!");
+		}
+		
+		// crud object for email
 		$emailmessage = new emailmessage();
 		$emailmessage->id = $emailmessage->create();
 		
 		
 		// read email in from stdin
 		$fd = fopen($emailFileName, "r");
-		//$email = file_get_contents("message_5.eml");
 		$email = "";
-		while (!feof($fd)) {
+		while (!feof($fd)) 
+		{
 			$email .= fread($fd, 1024);
 		}
 		fclose($fd);
 		
 		//create the email parser class
-		$mime=new mime_parser_class;
+		$mime = new mime_parser_class;
 		$mime->ignore_syntax_errors = 1;
-		$parameters=array(
+		$parameters = array(
 				'Data'=>$email,
 		);
 		
+		// parse email into array
 		$mime->Decode($parameters, $decoded);
 		
 		
 		//---------------------- Extracted Addresses -----------------------//
-		//get the name and email of the sender
-		//$fromName = $decoded[0]['ExtractedAddresses']['from:'][0]['name'];
-		//$fromEmail = $decoded[0]['ExtractedAddresses']['from:'][0]['address'];
-		//Debug::write($decoded[0]['ExtractedAddresses']);
-		//get the name and email of the recipient
+		// save email addresses from 'to' header to database
 		foreach ($decoded[0]['ExtractedAddresses']['to:'] as $arrTo)
 		{
-			$user = new user();
-			$useremail = new useremail();
-			
-			$result = $this->_db->query("SELECT * FROM `user` WHERE `user_email` = :user_email", array("user_email"=>$arrTo['address']));
-			
-			if (count($result) == 0)
-			{
-				$user->user_email = $arrTo['address'];
-				if (isset($arrTo['name']))
-				{
-					$user->user_name = $arrTo['name'];
-				}
-				$user->id = $user->create();
-			}
-			else
-			{
-				$user->user_email = $result[0]['user_email'];
-				$user->id = $result[0]['id'];
-			}
-			
-			$useremail->emailmessage_id = $emailmessage->id;
-			$useremail->user_id = $user->id;
-			$useremail->type = 'to';
-			$useremail->create();
+			$this->saveUserEmailRelation ($arrTo, $emailmessage->id);
+
 		}
 		
-		
+		// save email addresses from 'cc' header to database
 		if (isset($decoded[0]['ExtractedAddresses']['cc:']))
 		{
-			foreach ($decoded[0]['ExtractedAddresses']['cc:'] as $arrTo)
+			foreach ($decoded[0]['ExtractedAddresses']['cc:'] as $arrCc)
 			{
-				$user = new user();
-				$useremail = new useremail();
-					
-				$result = $this->_db->query("SELECT * FROM `user` WHERE `user_email` = :user_email", array("user_email"=>$arrTo['address']));
-				if (count($result) == 0)
-				{
-					$user->user_email = $arrTo['address'];
-					if (isset($arrTo['name']))
-					{
-						$user->user_name = $arrTo['name'];
-					}
-					$user->id = $user->create();
-				}
-				else
-				{
-					$user->user_email = $result[0]['user_email'];
-					$user->id = $result[0]['id'];
-						
-				}
-				$useremail->emailmessage_id = $emailmessage->id;
-				$useremail->user_id = $user->id;
-				$useremail->type = 'cc';
-				$useremail->create();
+				$this->saveUserEmailRelation ($arrCc, $emailmessage->id);
 			}
 		}
 		
 
 		//---------------------- GET EMAIL HEADER INFO -----------------------//
-		//Debug::write($decoded[0]['Headers']);
 		foreach ($decoded[0]['Headers'] as $hName => $hValue)
 		{
 			$hName = str_replace(":", "", $hName);
@@ -111,54 +82,17 @@ class parsemail
 			{
 				foreach($hValue as $hSubName => $hSubValue)
 				{
-					$result = $this->_db->query("SELECT * FROM `headername` WHERE `header_name` = :headerName", array("headerName"=>$hName));
-		
-					if (count($result) == 0)
-					{
-						$headerName->id = 0;
-						$headerName->header_name = $hName;
-						$headerName->id = $headerName->create();
-					}
-					else
-					{
-						$headerName->header_name = $result[0]['header_name'];
-						$headerName->id = $result[0]['id'];
-							
-					}
-					$header->emailmessage_id = $emailmessage->id;
-					$header->headername_id = $headerName->id;
-					$header->header_value = $hSubValue;
-					$header->create();
+					$this->saveHeader($hName, $hSubValue, $emailmessage->id);
 				}
 			}
 			else
 			{
-				$result = $this->_db->query("SELECT * FROM `headername` WHERE `header_name` = :headerName", array("headerName"=>$hName));
-					
-				if (count($result) == 0)
-				{
-					$headerName->id = 0;
-					$headerName->header_name = $hName;
-					$headerName->id = $headerName->create();
-				}
-				else
-				{
-					$headerName->header_name = $result[0]['header_name'];
-					$headerName->id = $result[0]['id'];
-		
-				}
-				$header->emailmessage_id = $emailmessage->id;
-				$header->headername_id = $headerName->id;
-				$header->header_value = mb_decode_mimeheader($hValue);
-				$header->create();
+				$this->saveHeader($hName, $hValue, $emailmessage->id);
 			}
 		}
 		
 		
 		//---------------------- FIND THE BODY -----------------------//
-//  		Debug::write($decoded[0]);
-// 		Debug::write(substr(strtolower($decoded[0]['Parts'][0]['Headers']['content-type:']),0,strlen('text/plain')));
-// 		Debug::write($decoded[0]['Parts'][0]['Body']);
 		//get the text message body
 		if (substr(strtolower($decoded[0]['Headers']['content-type:']),0,strlen('text/plain')) == 'text/plain' && isset($decoded[0]['Body']))
 		{
@@ -182,7 +116,6 @@ class parsemail
 			$emailmessage->body = trim($body);
 		}
 		
-		//Debug::write($decoded[0]['Parts'][1]);
 		//get the html message body
 		if (substr(strtolower($decoded[0]['Headers']['content-type:']),0,strlen('text/html')) == 'text/html' && isset($decoded[0]['Body']))
 		{
@@ -208,10 +141,6 @@ class parsemail
 		
 		$emailmessage->save();
 		
-		
-		
-		//Debug::write($emailmessage->body);
-		
 		//------------------------ ATTACHMENTS ------------------------------------//
 		
 		//loop through email parts
@@ -223,10 +152,6 @@ class parsemail
 				//format file name (change spaces to underscore then remove anything that isn't a letter, number or underscore)
 				$filename = preg_replace('/[^0-9,a-z,\.,_]*/i','',str_replace(' ','_', $part['FileName']));
 		
-				// 		//write the data to the file
-				// 		$fp = fopen('upload/' . $filename, 'w');
-				// 		$written = fwrite($fp,$part['Body']);
-				// 		fclose($fp);
 				$attachment = new attachment();
 				$attachment->emailmessage_id = $emailmessage->id;
 				//add file to attachments array
@@ -242,18 +167,92 @@ class parsemail
 				$attachment->type = explode(";", $part['Headers']['content-type:'])[0];
 				$attachment->content = addslashes($part['Body']);
 				$attachment->create();
-				echo "<br>File $attachment->name uploaded<br>";
-				Debug::write("File $attachment->name uploaded");
 			}
 		}
 		
 		return true;
-		
-// 		$result = $this->_db->query("select header_name, header_value from header
-// 				left join headername on headername.id = header.headername_id
-// 				where emailmessage_id = $emailmessage->id");
 	}
 	
+	/**
+	 * Save header name and value into database
+	 * @param string $hName header name
+	 * @param string $hValue header value
+	 * @param int $emailmessageId
+	 */
+	private function saveHeader($hName, $hValue, $emailmessageId) 
+	{
+		// crud objects
+		$header = new header();
+		$headerName = new headername();
+		
+		$result = $this->_db->query("SELECT * FROM `headername` WHERE `header_name` = '$hName'");
+		
+		if (count($result) == 0)
+		{
+			// Insert header name into database
+			$headerName->id = 0;
+			$headerName->header_name = $hName;
+			$headerName->id = $headerName->create();
+		}
+		else
+		{
+			// header name exists in database
+			$headerName->header_name = $result[0]['header_name'];
+			$headerName->id = $result[0]['id'];
+				
+		}
+		$header->emailmessage_id = $emailmessageId;
+		$header->headername_id = $headerName->id;
+		$header->header_value = $hValue;
+		$header->create();
+	}
+
+	
+	/**
+	 * Saves user and user email realation into database
+	 * @param array $arrEmailAddress 
+	 * @param int $emailmessageId 
+	 */
+	 private function saveUserEmailRelation($arrEmailAddress, $emailmessageId) 
+	 {
+		// crud objects
+		$user = new user();
+		$useremail = new useremail();
+		
+		$result = $this->_db->query("SELECT * FROM `user` WHERE `user_email` = :user_email", array("user_email"=>$arrEmailAddress['address']));
+		
+		if (count($result) == 0)
+		{
+			// Create new user 
+			$user->user_email = $arrEmailAddress['address'];
+			if (isset($arrEmailAddress['name']))
+			{
+				$user->user_name = $arrEmailAddress['name'];
+			}
+			$user->id = $user->create();
+		}
+		else
+		{
+			// User exists
+			$user->user_email = $result[0]['user_email'];
+			$user->id = $result[0]['id'];
+		}
+		
+		// save user email relation
+		$useremail->emailmessage_id = $emailmessageId;
+		$useremail->user_id = $user->id;
+		$useremail->type = 'to';
+		$useremail->create();
+	}
+
+	
+	/**
+	 * Returns user or all emails from database
+	 * @param string $emailAddress if empty returns all 
+	 * @param string $lCount returns array of email Ids if false, otherwise int count of emails 
+	 * @throws Exception
+	 * @return array|int 
+	 */
 	public function getEmails($emailAddress="", $lCount=false)
 	{
 		if (!empty($emailAddress))
@@ -292,6 +291,11 @@ class parsemail
 		}
 	}
 	
+	/**
+	 * Returns all emails with given header name
+	 * @param $headerName
+	 * @return array|bool on success returns array of email ids
+	 */
 	public function getEmailsByHeader($headerName) 
 	{
 		$emailsWithHeaderNameResult = $this->_db->column("SELECT emailmessage_id FROM `header` left join `headername` on `headername`.id = `header`.headername_id where `header_name` = '$headerName'");
@@ -299,13 +303,22 @@ class parsemail
 		{
 			return $emailsWithHeaderNameResult;
 		}
+		else 
+		{
+			return false;
+		}
 	}
 	
-	public function getEmailsPerS�nderDomain($emailAddress='')
+	/**
+	 * Returns sender domain array for given user email address or for all emails in database
+	 * @param string $emailAddress
+	 * @return array 
+	 */
+	public function getEmailsPerSenderDomain($emailAddress='')
 	{
 		if (!empty($emailAddress))
 		{
-			$query = "select count(*) as cnt, REPLACE(SUBSTRING_INDEX(SUBSTRING_INDEX(header.header_value, '@', -1), '.', -2),'>','') as email 
+			$query = "select count(*) as cnt, REPLACE(SUBSTRING_INDEX(header.header_value, '@', -1),'>','') as email 
 				from header left join headername on headername.id = header.headername_id
 				left join useremail on useremail.emailmessage_id = header.emailmessage_id
 				left join user on user.id = useremail.user_id
@@ -315,7 +328,7 @@ class parsemail
 		}
 		else
 		{
-			$query = "select count(*) as cnt, REPLACE(SUBSTRING_INDEX(SUBSTRING_INDEX(header.header_value, '@', -1), '.', -2),'>','') as email 
+			$query = "select count(*) as cnt, REPLACE(SUBSTRING_INDEX(header.header_value, '@', -1),'>','') as email 
 				from header left join headername on headername.id = header.headername_id
 				where headername.header_name = 'from'
 				group by email";
@@ -330,6 +343,11 @@ class parsemail
 		return $emailsCount;
 	}
 	
+	/**
+	 * Returns percent of user emails with 'received-spf' header starts with 'pass'
+	 * @param string $emailAddress
+	 * @return number 
+	 */
 	public function getEmailsSpfPass($emailAddress="")
 	{
 		if (!empty($emailAddress))
@@ -358,9 +376,14 @@ class parsemail
 		return round($emailsSpfPassResults[0]/$emailCount, 2) * 100;
 	}
 	
+	
+	/**
+	 * Returns all data stored in database for given email id
+	 * @param int $emailId email pk from emailmessage table
+	 * @return array
+	 */
 	public function getEmailDetails($emailId)
 	{
-		
 		$emailmessage = new emailmessage();
 		
 		$emailmessage->find($emailId);
@@ -381,12 +404,7 @@ class parsemail
 			$arrEmail['attachments'] = $attachmentsResult;
 		}
 		
-		Debug::write($arrEmail);
+		return $arrEmail;
 	}
 	
-	public function checkEmailInDatabase($emailAddress)
-	{
-		
-	}
-
 }
