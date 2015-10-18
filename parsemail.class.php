@@ -22,7 +22,7 @@ class parsemail
 	/**
 	 * Parses and inserts email to database
 	 * @param string $emailFileName path to email file
-	 * @return boolean returns true on success
+	 * @return int returns saved email id
 	 */
 	public function parseEmail($emailFileName)
 	{
@@ -170,7 +170,7 @@ class parsemail
 			}
 		}
 		
-		return true;
+		return $emailmessage->id;
 	}
 	
 	/**

@@ -23,7 +23,9 @@ try
 {
 	$parsemail = new parsemail();
 	
-	$parsemail->parseEmail("./emails/message_2.eml");
+	$savedEmailId = $parsemail->parseEmail("./emails/message_1.eml");
+	$email = $parsemail->getEmailDetails($savedEmailId);
+	Debug::write($email);
 	
 	$userEmailIds = $parsemail->getEmails("plamen@gmail.com");
 	Debug::write($userEmailIds);
@@ -43,8 +45,7 @@ try
 	$emailSpfPassPercent = $parsemail->getEmailsSpfPass("plamen@gmail.com");
 	Debug::write('$userEmailIds',$emailSpfPassPercent);
 	 
-	$email = $parsemail->getEmailDetails(47);
-	Debug::write($email);
+
 } 
 catch (Exception $e) 
 {
