@@ -1,3 +1,0 @@
-Time : 22:00:31
-SQLSTATE[42S22]: Column not found: 1054 Unknown column 'userId' in 'where clause'
-Raw SQL : SELECT * FROM user WHERE userId= :userId LIMIT 1

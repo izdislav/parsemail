@@ -1,5 +1,0 @@
-Time : 23:30:55
-SQLSTATE[42S22]: Column not found: 1054 Champ 'headername.emailmessage_id' inconnu dans where clause
-Raw SQL : select header_name, header_value 
-									from header left join headername on headername.id = header.headername_id
-									where headername.emailmessage_id = 1
