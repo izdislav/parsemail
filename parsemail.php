@@ -27,22 +27,22 @@ try
 	$email = $parsemail->getEmailDetails($savedEmailId);
 	Debug::write($email);
 	
-	$userEmailIds = $parsemail->getEmails("plamen@gmail.com");
+	$userEmailIds = $parsemail->getEmails("extralong@abv.bg");
 	Debug::write($userEmailIds);
 	
 	$emailsWithHeaderName = $parsemail->getEmailsByHeader("to");
 	Debug::write($emailsWithHeaderName);
 	
-	$userEmailCount = $parsemail->getEmails("plamen@gmail.com", false);
+	$userEmailCount = $parsemail->getEmails("extralong@abv.bg", false);
 	Debug::write($userEmailCount);
 	
 	$emailCount = $parsemail->getEmails("", true);
 	Debug::write($emailCount);
 	
-	$userEmailsPerSenderDomain = $parsemail->getEmailsPerSenderDomain("plamen@gmail.com");
+	$userEmailsPerSenderDomain = $parsemail->getEmailsPerSenderDomain("extralong@abv.bg");
 	Debug::write('$userEmailIds',$userEmailsPerSenderDomain);
 	
-	$emailSpfPassPercent = $parsemail->getEmailsSpfPass("plamen@gmail.com");
+	$emailSpfPassPercent = $parsemail->getEmailsSpfPass("extralong@abv.bg");
 	Debug::write('$userEmailIds',$emailSpfPassPercent);
 	 
 
