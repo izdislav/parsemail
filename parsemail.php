@@ -23,28 +23,28 @@ try
 {
 	$parsemail = new parsemail();
 	
-// 	$parsemail->parseEmail("./emails/message_2.eml");
+	$parsemail->parseEmail("./emails/message_2.eml");
 	
-// 	$userEmailIds = $parsemail->getEmails("plamen@gmail.com");
-// 	Debug::write($userEmailIds);
+	$userEmailIds = $parsemail->getEmails("plamen@gmail.com");
+	Debug::write($userEmailIds);
 	
 	$emailsWithHeaderName = $parsemail->getEmailsByHeader("to");
 	Debug::write($emailsWithHeaderName);
 	
-// 	$userEmailCount = $parsemail->getEmails("plamen@gmail.com", false);
-// 	Debug::write($userEmailCount);
+	$userEmailCount = $parsemail->getEmails("plamen@gmail.com", false);
+	Debug::write($userEmailCount);
 	
-// 	$emailCount = $parsemail->getEmails("", true);
-// 	Debug::write($emailCount);
+	$emailCount = $parsemail->getEmails("", true);
+	Debug::write($emailCount);
 	
-// 	$userEmailsPerSenderDomain = $parsemail->getEmailsPerSenderDomain("plamen@gmail.com");
-// 	Debug::write('$userEmailIds',$userEmailsPerSenderDomain);
+	$userEmailsPerSenderDomain = $parsemail->getEmailsPerSenderDomain("plamen@gmail.com");
+	Debug::write('$userEmailIds',$userEmailsPerSenderDomain);
 	
-// 	$emailSpfPassPercent = $parsemail->getEmailsSpfPass("plamen@gmail.com");
-// 	Debug::write('$userEmailIds',$emailSpfPassPercent);
+	$emailSpfPassPercent = $parsemail->getEmailsSpfPass("plamen@gmail.com");
+	Debug::write('$userEmailIds',$emailSpfPassPercent);
 	 
-// 	$email = $parsemail->getEmailDetails(47);
-// 	Debug::write($email);
+	$email = $parsemail->getEmailDetails(47);
+	Debug::write($email);
 } 
 catch (Exception $e) 
 {
