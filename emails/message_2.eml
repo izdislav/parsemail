@@ -1,0 +1,424 @@
+Delivered-To: plamen@gmail.com
+Received: by 10.112.140.105 with SMTP id rf9csp685054lbb;
+        Tue, 22 Sep 2015 14:34:33 -0700 (PDT)
+X-Received: by 10.66.235.226 with SMTP id up2mr33674297pac.89.1442957673707;
+        Tue, 22 Sep 2015 14:34:33 -0700 (PDT)
+Return-Path: <skrill@news.skrill.com>
+Received: from omptrans.news.skrill.com (omptrans.news.skrill.com. [12.130.138.13])
+        by mx.google.com with ESMTP id kw10si5355127pab.162.2015.09.22.14.34.33
+        for <plamen@gmail.com>;
+        Tue, 22 Sep 2015 14:34:33 -0700 (PDT)
+Received-SPF: pass (google.com: domain of skrill@news.skrill.com designates 12.130.138.13 as permitted sender) client-ip=12.130.138.13;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of skrill@news.skrill.com designates 12.130.138.13 as permitted sender) smtp.mailfrom=skrill@news.skrill.com;
+       dkim=pass header.i=@news.skrill.com;
+       dkim=pass header.i=@responsys.net;
+       dmarc=pass (p=REJECT dis=NONE) header.from=news.skrill.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=skrill; d=news.skrill.com;
+ h=MIME-Version:Content-Type:Content-Transfer-Encoding:Date:To:From:Reply-To:Subject:Feedback-ID:Message-ID; i=skrill@news.skrill.com;
+ bh=R2FTOCGv3shhhsTJhoJs2VdPfNw=;
+ b=Gfbg2IjnxMxCYhntwb4McGJJXZ4heuccHCAtFTA0V14Pb9DAZTyC+tdp4sX3nNf6GCFZM1EDIWT3
+   GCF+GHoho+toDjE6dyOYJsjm0FvU9i3noN1RwgjEbCIG7Ryx3zCVfnEtc1yEn5jUgblLcMohp3Wi
+   2VvGa39PNs+qovzq1UM=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=oraclersys; d=responsys.net;
+ h=MIME-Version:Content-Type:Content-Transfer-Encoding:Date:To:From:Reply-To:Subject:Feedback-ID:Message-ID;
+ bh=R2FTOCGv3shhhsTJhoJs2VdPfNw=;
+ b=Nj2MLgkEmFTyeVbIDaaJ0elTDgxVL2sjdIRHf2Zd5rgJK9LflUdT77YUNcbNP57VAHDwtQvQJKWI
+   EUkpVNfKVQK08aULnzuRjhuXvW8Gy3NacTcVvJDKVtg2n6zbGfjGqk+rOQ/xDmYUJuwXfH+6Oeb7
+   JpW3qqvdLlu7i3crNZo=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=skrill; d=news.skrill.com;
+ b=IotrrZTFaEPF45Pr/jkvPA2qMhbm7be/qQm1zfnbbJH2K/+h3Izzjo4Bb3Spx8aSL9FL6/oITseR
+   UX1gm7YHbrQAsFVU8pQQP9QvvTIlUiDKjBJL8rLyeikXNkMnzkOazCqb4Gc4sCboj2UhbJvwTvb9
+   2e0jnEDKhICDojaDWhI=;
+Received: by omptrans.news.skrill.com id h074mi1613g3 for <plamen@gmail.com>; Tue, 22 Sep 2015 14:34:29 -0700 (envelope-from <skrill@news.skrill.com>)
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Date: Tue, 22 Sep 2015 14:34:29 -0700
+To: plamen@gmail.com
+From: "Skrill" <skrill@news.skrill.com>
+Reply-To: "Skrill" <donotreply@news.skrill.com>
+Subject: Important update about our deposit fees
+Feedback-ID: 1082:209212:oraclersys
+X-sgxh1: itHuLgQNHkptLNQNHkptLNxnuHptQJhu
+X-rext: 5.interact2.Ek_PxebXtDxeiMAEOFmxkKX71fstbgiEsowHm7M9-ceexFacp_s
+X-cid: mbook.10978447
+Message-ID: <0.0.14.AD.1D0F57E7684FC94.0@omptrans.news.skrill.com>
+
+<=21DOCTYPE html PUBLIC =22-//W3C//DTD XHTML 1=2E0 Transitional//EN=22 =22h=
+ttp://www=2Ew3=2Eorg/TR/xhtml1/DTD/xhtml1-transitional=2Edtd=22>
+<html xmlns=3D=22http://www=2Ew3=2Eorg/1999/xhtml=22>
+<head>
+<meta http-equiv=3D=22Content-Type=22 content=3D=22text/html; charset=3Dutf=
+-8=22/>
+<meta name=3D=22viewport=22 content=3D=22width=3Ddevice-width, initial-scal=
+e=3D1=2E0, maximum-scale=3D1=2E0, user-scalable=3D0;=22/>
+<title>Skrill</title>
+<style type=3D=22text/css=22>
+html =7Bwidth: 100%;=7D=20
+body =7Bwidth:100% =21important;=7D
+=2EExternalClass =7Bwidth:100%;=7D
+=2EExternalClass * =7Bline-height: 100%=7D
+=40media only screen and (max-width:580px) =7B
+*=5Bclass=5D=2Eh=7Bdisplay: none =21important;=7D
+*=5Bclass=5D=2Efl=7Bfloat:left =21important;=7D
+*=5Bclass=5D=2Ewr=7Bdisplay:block =21important;=7D
+*=5Bclass=5D=2Ew10=7Bwidth:10px =21important;=7D
+*=5Bclass=5D=2Ew14=7Bwidth:14px =21important;=7D
+*=5Bclass=5D=2Ew15=7Bwidth:15px =21important;=7D
+*=5Bclass=5D=2Ew16=7Bwidth:16px =21important;=7D
+*=5Bclass=5D=2Ew20=7Bwidth:20px =21important;=7D
+*=5Bclass=5D=2Ew25=7Bwidth:25px =21important;=7D
+*=5Bclass=5D=2Ew30=7Bwidth:30px =21important;=7D
+*=5Bclass=5D=2Ew35=7Bwidth:35px =21important;=7D
+*=5Bclass=5D=2Ew50=7Bwidth:50px =21important;=7D
+*=5Bclass=5D=2Ew85=7Bwidth:85px =21important;=7D
+*=5Bclass=5D=2Ew112=7Bwidth:112px =21important;=7D
+*=5Bclass=5D=2Ew113=7Bwidth:113px =21important;=7D
+*=5Bclass=5D=2Ew123=7Bwidth:123px =21important;=7D
+*=5Bclass=5D=2Ew128=7Bwidth:128px =21important;=7D
+*=5Bclass=5D=2Ew143=7Bwidth:143px =21important;=7D
+*=5Bclass=5D=2Ew157=7Bwidth:157px =21important;=7D
+*=5Bclass=5D=2Ew230=7Bwidth:230px =21important; text-align: left =21importa=
+nt;=7D
+*=5Bclass=5D=2Ew234=7Bwidth:234px =21important;=7D
+*=5Bclass=5D=2Ew235=7Bwidth:235px =21important;=7D
+*=5Bclass=5D=2Ew259=7Bwidth:259px =21important;=7D
+*=5Bclass=5D=2Ew260=7Bwidth:260px =21important;=7D
+*=5Bclass=5D=2Ew280=7Bwidth:280px =21important;=7D
+*=5Bclass=5D=2Ew292=7Bwidth:292px =21important;=7D
+*=5Bclass=5D=2Ew300=7Bwidth:300px =21important;=7D
+*=5Bclass=5D=2Ew320=7Bwidth:320px =21important;=7D
+*=5Bclass=5D=2Eh1=7Bheight:1px =21important;=7D
+*=5Bclass=5D=2Eh3=7Bheight:3px =21important;=7D
+*=5Bclass=5D=2Eh5=7Bheight:5px =21important;=7D
+*=5Bclass=5D=2Eh8=7B height:8px =21important;=7D
+*=5Bclass=5D=2Eh9=7Bheight:9px =21important;=7D
+*=5Bclass=5D=2Eh10=7B height:10px =21important;=7D
+*=5Bclass=5D=2Eh15=7Bheight:15px =21important;=7D
+*=5Bclass=5D=2Eh20=7Bheight:20px =21important;=7D
+*=5Bclass=5D=2Eh22=7Bheight:22px =21important;=7D
+*=5Bclass=5D=2Eh25=7Bheight:25px =21important;=7D
+*=5Bclass=5D=2Eh37=7B height:37px =21important;=7D
+*=5Bclass=5D=2Eh120=7B height:120px =21important;=7D
+*=5Bclass=5D=2Ef12=7B font-size:12px =21important; line-height:15px =21impo=
+rtant; color:=233c3c3c =21important;=7D
+*=5Bclass=5D=2Ef13=7B font-size:13px =21important; line-height:16px =21impo=
+rtant; color:=233c3c3c =21important;=7D
+*=5Bclass=5D=2Ef14=7B font-size:14px =21important; line-height:17px =21impo=
+rtant; color:=233c3c3c =21important;=7D
+*=5Bclass=5D=2Ef15=7B font-size:15px =21important; line-height:18px =21impo=
+rtant; color:=233c3c3c =21important;=7D
+*=5Bclass=5D=2Ef16=7B font-size:16px =21important; line-height:19px =21impo=
+rtant; color:=23862165 =21important;=7D
+*=5Bclass=5D=2Ef18=7B font-size:18px =21important; line-height:21px =21impo=
+rtant; color:=23862165 =21important;=7D
+*=5Bclass=5D=2Ef20=7B font-size:20px =21important; line-height:23px =21impo=
+rtant; color:=23862165 =21important;=7D
+*=5Bclass=5D=2Ef32=7Bfont-size:32px =21important; line-height: 36px =21impo=
+rtant;=7D
+*=5Bclass=5D=2Efooter=7Bfont-size:16px =21important; line-height: 16px =21i=
+mportant; color: =23ffffff =21important; text-decoration:none =21important;=
+=7D
+*=5Bclass=5D=2Eautoh=7Bheight:auto =21important;=7D
+*=5Bclass=5D=2Ecentered=7Bmargin: 0 auto =21important; padding-left: 5px =
+=21important; padding-right: 5px =21important;=7D
+*=5Bclass=5D=2Ebgnone=7Bbackground-image:none =21important;=7D
+*=5Bclass=5D=2Ebgcolournone=7Bbackground-color:transparent =21important;=7D
+*=5Bclass=5D=2Epadlr10=7Bpadding-left:10px =21important; padding-right:10px=
+ =21important;=7D
+*=5Bclass=5D=2Epadl20=7Bpadding-left:20px =21important;=7D
+*=5Bclass=5D=2Epadr20=7Bpadding-right:20px =21important;=7D
+*=5Bclass=5D=2Epadl30=7Bpadding-left:30px =21important;=7D
+*=5Bclass=5D=2Epadb16=7Bpadding-bottom:16px =21important;=7D
+*=5Bclass=5D=2Etext_center=7B text-align:center =21important;=7D
+*=5Bclass=5D=2Egreybg=7Bbackground-color:=23544C64 =21important;=7D
+*=5Bclass=5D=2Efooterbg=7Bbackground-color:=23544C64 =21important;width: 32=
+0px =21important; height: 166px =21important;=7D
+*=5Bclass=5D=2Efootercta=7Bbackground: url(https://www=2Eskrill=2Ecom/filea=
+dmin/content/Emails_2015/Master_Images/Purple_Rain_Master_Images/footer_cta=
+=2Epng) no-repeat; width: 24px =21important; height: 24px =21important; pad=
+ding-right: 15px =21important;=7D
+*=5Bclass=5D=2Efootersplit=7Bbackground: url(https://www=2Eskrill=2Ecom/fil=
+eadmin/content/Emails_2015/Master_Images/Purple_Rain_Master_Images/refresh_=
+footsplit=2Ejpg) no-repeat; width: 260px =21important; height: 1px =21impor=
+tant; margin: 0 auto =21important; text-align: center =21important;=7D
+*=5Bclass=5D=2Efacebook=7Bbackground: url(http://responsys=2Ehs=2Ellnwd=2En=
+et/i5/responsysimages/content/csemeaz0/Skrill_ModTemplate_Facebook=2Ejpg) n=
+o-repeat; width: 32px =21important; height: 32px =21important;=7D
+*=5Bclass=5D=2Etwitter=7Bbackground: url(http://responsys=2Ehs=2Ellnwd=2Ene=
+t/i5/responsysimages/content/csemeaz0/Skrill_ModTemplate_Twitter=2Ejpg) no-=
+repeat; width: 32px =21important; height: 32px =21important;=7D
+*=5Bclass=5D=2EMobBanner1=7Bbackground: url(https://www=2Eskrill=2Ecom/file=
+admin/content/Emails_2015/Master_Images/Purple_Rain_Master_Images/mob_banne=
+r1_m=2Ejpg) no-repeat; width: 320px =21important; height: 298px =21importan=
+t;=7D
+*=5Bclass=5D=2Elogomob=7Bbackground: url(https://www=2Eskrill=2Ecom/fileadm=
+in/content/Emails_2015/Master_Images/Purple_Rain_Master_Images/logo_mob=2Ej=
+pg) no-repeat; width: 320px =21important; height: 74px =21important;=7D
+*=5Bclass=5D=2EMobBanner=7Bbackground: url(https://www=2Eskrill=2Ecom/filea=
+dmin/content/Emails_2015/Master_Images/Purple_Rain_Master_Images/banner_m=
+=2Ejpg) no-repeat; width: 320px =21important; height: 298px =21important;=7D
+*=5Bclass=5D=2EModSixImg=7Bbackground: url(https://www=2Eskrill=2Ecom/filea=
+dmin/content/Emails_2015/Lifecycle/Welcome/Skrill_Welcome_EM2_5050split=2Ej=
+pg) no-repeat; width: 290px =21important; height: 281px =21important;=7D
+*=5Bclass=5D=2Ew100pc=7Bwidth:100% =21important;=7D
+=7D
+ </style>
+</head>
+<body topmargin=3D=220=22 bottommargin=3D=220=22 leftmargin=3D=220=22 right=
+margin=3D=220=22 bgcolor=3D=22=23EDEDEF=22 style=3D=22padding: 0px; margin:=
+ 0px;=22>
+<table width=3D=22100%=22 style=3D=22table-layout: fixed; margin: 0 auto;=
+=22 border=3D=220=22 cellspacing=3D=220=22 cellpadding=3D=220=22>
+<tr>
+<td align=3D=22center=22 class=3D=22bgnone=22 bgcolor=3D=22=23EDEDEF=22>
+<table width=3D=22659=22 class=3D=22w320=22 border=3D=220=22 cellspacing=3D=
+=220=22 cellpadding=3D=220=22>
+<tr>
+<td width=3D=22659=22>
+<table class=3D=22h=22 width=3D=22640=22 cellpadding=3D=220=22 cellspacing=
+=3D=220=22 border=3D=220=22><tr><td><img src=3D=22http://responsys=2Ehs=2El=
+lnwd=2Enet/i5/responsysimages/content/csemeaz0/gmailgif=2Egif=22 width=3D=
+=22660=22 height=3D=221=22 border=3D=220=22 style=3D=22display:block;min-wi=
+dth:660px;width:660px;=22 /></td></tr></table>
+<=21-- Header Module: Start -->
+<table width=3D=22640=22 class=3D=22h=22 border=3D=220=22 cellspacing=3D=22=
+0=22 cellpadding=3D=220=22>
+<tbody><tr>
+<td colspan=3D=222=22 style=3D=22line-height: 1px;=22>
+<img src=3D=22https://www=2Eskrill=2Ecom/fileadmin/content/Emails_2015/Mast=
+er_Images/spacer=2Egif=22 width=3D=221=22 height=3D=2210=22 style=3D=22disp=
+lay: block;=22>
+</td>
+</tr>
+<tr>
+<td style=3D=22font-family: Arial, Helvetica, sans-serif; font-size: 11px; =
+color: =23544C64; text-align: left; line-height: 11px;=22>Skrill Notificati=
+on</td>
+<td style=3D=22font-family: Arial, Helvetica, sans-serif; font-size: 11px; =
+color: =23544C64; text-align: right; line-height: 11px;=22 width=3D=22300=
+=22>
+<a href=3D=22http://news=2Eskrill=2Ecom/pub//cc?_ri_=3DX0Gzc2X%3DYQpglLjHJl=
+TQGsXyzfLIzcl9zfLpf6GwzguzfsdzcBSMklInpGkhOauBfDqJLLzfzgHJiXkVXtpKX%3DSSBRS=
+UCY&_ei_=3DEolaGGF4SNMvxFF7KucKuWMJwH6pQsCDMcBhE0A9i1QfvRuIcuukeGipalvDnag8=
+eBR-DLe2wQug6bsxWoLzHq_CzVxA4rU=2E=22 target=3D=22_blank=22 style=3D=22font=
+-family: Arial, Helvetica, sans-serif; font-size: 11px; color: =23544C64; t=
+ext-align: right; line-height: 11px; text-decoration:none;=22>View with ima=
+ges</a></td>
+</tr>
+<tr>
+<td colspan=3D=222=22 style=3D=22line-height: 1px;=22>
+<img src=3D=22https://www=2Eskrill=2Ecom/fileadmin/content/Emails_2015/Mast=
+er_Images/spacer=2Egif=22 width=3D=221=22 height=3D=2210=22 style=3D=22disp=
+lay: block;=22>
+</td>
+</tr>
+</tbody></table>
+<div class=3D=22w320=22 width=3D=22640=22 style=3D=22width:640px; padding: =
+0px; margin: 0px;=22>
+<=21--=5Bif mso =5D>
+<table width=3D=22640=22 bgcolor=3D=22=23544C64=22 border=3D=220=22 cellspa=
+cing=3D=220=22 cellpadding=3D=220=22>
+<tr>
+<td valign=3D=22top=22>
+<=21=5Bendif=5D-->
+<table align=3D=22left=22 class=3D=22w320=22 bgcolor=3D=22=23544C64=22 widt=
+h=3D=22372=22 border=3D=220=22 cellspacing=3D=220=22 cellpadding=3D=220=22>
+<tbody><tr>
+<td>
+<a href=3D=22http://news=2Eskrill=2Ecom/pub//cc?_ri_=3DX0Gzc2X%3DYQpglLjHJl=
+TQGsXyzfLIzcl9zfLpf6GwzguzfsdzcBSMklInpGkhOauBfDqJLLzfzgHJiXkVXtpKX%3DSSBRS=
+UCA&_ei_=3DEolaGGF4SNMvxFF7KucKuWMJwH6pQsCDMcBhE0A9i1QfvRuIcuukeGipalvDnag8=
+eGIzlnazwlnWchbjDDANtv851_FeyDOHGDuzvKtlHgXHYu2dYRQ=2E=22 target=3D=22_blan=
+k=22><img src=3D=22https://www=2Eskrill=2Ecom/fileadmin/content/Emails_2015=
+/Master_Images/Purple_Rain_Master_Images/logo=2Epng=22 width=3D=22175=22 he=
+ight=3D=2279=22 style=3D=22display: block;=22 alt=3D=22Skrill=22 border=3D=
+=220=22></a>
+</td>
+<td width=3D=22190=22 class=3D=22w50=22 style=3D=22font-size:1px; line-heig=
+ht:1px;=22>
+<img src=3D=22https://www=2Eskrill=2Ecom/fileadmin/content/Emails_2015/Mast=
+er_Images/spacer=2Egif=22 width=3D=22187=22 class=3D=22w50=22 height=3D=221=
+=22 style=3D=22display: block;=22>
+</td>
+<td width=3D=227=22>
+<table width=3D=227=22 border=3D=220=22 cellspacing=3D=220=22 cellpadding=
+=3D=220=22>
+<tbody><tr>
+<td width=3D=221=22 style=3D=22font-size:1px; line-height:1px;=22>
+</td>
+<td width=3D=221=22 style=3D=22font-size:1px; line-height:1px;=22>
+<img src=3D=22https://www=2Eskrill=2Ecom/fileadmin/content/Emails_2015/Mast=
+er_Images/spacer=2Egif=22 width=3D=225=22 height=3D=221=22 style=3D=22displ=
+ay: block;=22 alt=3D=22=22 border=3D=220=22>
+</td>
+<td width=3D=221=22 style=3D=22font-size:1px; line-height:1px;=22>
+</td>
+<td width=3D=221=22 style=3D=22font-size:1px; line-height:1px;=22>
+<img src=3D=22https://www=2Eskrill=2Ecom/fileadmin/content/Emails_2015/Mast=
+er_Images/spacer=2Egif=22 width=3D=221=22 height=3D=221=22 class=3D=22w20=
+=22 style=3D=22display: block;=22 alt=3D=22=22 border=3D=220=22>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<=21--=5Bif mso =5D>
+</td>
+<td>
+<=21=5Bendif=5D-->
+<table align=3D=22left=22 class=3D=22w320 autoh=22 height=3D=2279=22 bgcolo=
+r=3D=22=23544C64=22 width=3D=221=22 border=3D=220=22 cellspacing=3D=220=22 =
+cellpadding=3D=220=22>
+<tbody><tr>
+<td width=3D=221=22>
+</td>
+<td width=3D=221=22 class=3D=22w280 h3 greybg=22 style=3D=22line-height: 1p=
+x;=22>
+<img src=3D=22https://www=2Eskrill=2Ecom/fileadmin/content/Emails_2015/Mast=
+er_Images/spacer=2Egif=22 width=3D=221=22 class=3D=22w280 h3=22 height=3D=
+=221=22 style=3D=22display:block;=22>
+</td>
+<td width=3D=221=22 class=3D=22w20=22>
+</td>
+</tr>
+</tbody></table>
+<=21--=5Bif mso =5D>
+</td>
+<td>
+<=21=5Bendif=5D-->
+<table align=3D=22left=22 class=3D=22w320 autoh=22 height=3D=2279=22 width=
+=3D=22267=22 bgcolor=3D=22=23544C64=22 border=3D=220=22 cellspacing=3D=220=
+=22 cellpadding=3D=220=22>
+<tbody><tr>
+
+
+</tr>
+<tr>
+<td colspan=3D=226=22 height=3D=221=22 class=3D=22h20=22 valign=3D=22top=22=
+ style=3D=22line-height: 1px;=22>
+<img src=3D=22https://www=2Eskrill=2Ecom/fileadmin/content/Emails_2015/Mast=
+er_Images/spacer=2Egif=22 width=3D=221=22 height=3D=221=22 class=3D=22h20=
+=22 style=3D=22display: block;=22>
+</td>
+</tr>
+</tbody></table>
+<=21--=5Bif mso =5D>
+</td>
+</tr>
+</table>
+<=21=5Bendif=5D-->
+</div>
+<=21-- Header Module: End -->
+<=21-- Hero Module: Start -->
+
+<=21-- Hero Module: End -->
+<div style=3D=22clear: both;=22></div>
+
+<table width=3D=22640=22 class=3D=22w320=22 cellpadding=3D=220=22 cellspaci=
+ng=3D=220=22 border=3D=220=22 bgcolor=3D=22=23ffffff=22>
+  <tr>
+    <td style=3D=22font-family:Arial;font-size:32px;line-height:40px;color:=
+=23544C64;padding:10px 20px 10px 20px;=22><strong>Changes to deposit fee st=
+ructure</strong><br /></td>
+  </tr>
+    <tr>
+    <td style=3D=22font-family:Arial;font-size:18px;line-height:24px;color:=
+=23544C64;padding:10px 20px 10px 20px;=22><strong>Dear Plamen Vasilev,</str=
+ong><br /></td>
+  </tr>
+  <tr>
+   =20
+  </tr>
+ =20
+</table>
+
+<table width=3D=22640=22 class=3D=22w320=22 cellpadding=3D=220=22 cellspaci=
+ng=3D=220=22 border=3D=220=22 bgcolor=3D=22=23ffffff=22>
+  <tr>
+    <td style=3D=22font-family:Arial;font-size:14px;line-height:20px;color:=
+=23544C64;padding:10px 20px 20px 20px;=22>We hope you are enjoying your Skr=
+ill services=2E<br />       <br />       We have recently reviewed our fee =
+structure and we are getting in touch to let you know about some planned fu=
+ture changes=2E <br />       <br />       Later this year, we will be chang=
+ing the amount we charge for deposits to Skrill=2E If you deposit money int=
+o your Skrill account, this change will affect you and we encourage you to =
+<a href=3D=22https://www=2Eskrill=2Ecom/en/fees/=22 target=3D=22_blank=22 s=
+tyle=3D=22color:=23811E68; text-decoration:underline=22>visit our fees page=
+</a> for full details=2E<br /><br /> This change forms part of our ongoing =
+commitment to improving your experience with Skrill and we hope you continu=
+e to enjoy using our services in the future=2E Please note, these changes w=
+ill come into effect from November 22 2015=2E*<br /> <br /> Thank you for u=
+sing Skrill=2E<br /><br /> Regards<br /><br /> The Skrill Team</td>
+  </tr>
+  <tr>
+   =20
+  </tr>
+ =20
+</table>
+
+
+
+
+
+
+
+
+<=21-- Module Four: Start -->
+
+<table width=3D=22100%=22 border=3D=220=22 cellspacing=3D=220=22 cellpaddin=
+g=3D=220=22>
+  <tr>
+    <td colspan=3D=223=22><img src=3D=22https://www=2Eskrill=2Ecom/fileadmi=
+n/content/Emails_2015/Lifecycle/Welcome/spacer=2Egif=22 width=3D=221=22 hei=
+ght=3D=2220=22 style=3D=22display: block;=22/></td>
+  </tr>
+  <tr>
+    <td width=3D=2230=22 class=3D=22w20=22 style=3D=22font-size:1px; line-h=
+eight:1px;=22><img src=3D=22https://www=2Eskrill=2Ecom/fileadmin/content/Em=
+ails_2015/Lifecycle/Welcome/spacer=2Egif=22 width=3D=2230=22 class=3D=22w20=
+=22 height=3D=221=22 style=3D=22display: block;=22/></td>
+    <td style=3D=22font-family: Arial, Helvetica, sans-serif; font-size: 11=
+px; line-height: 14px; color: =23555555; font-style: italic; text-align: ce=
+nter;=22>*If you do not wish to agree to these changes, please review other=
+ deposit methods available to you on our fees page=2E Should you wish to te=
+rminate your account, you can do so at any time by contacting our Customer =
+Service team=2E<br />
+      <br />
+      Emails from Skrill will always address you by your first and last nam=
+e=2E If the email does not include your first and last name, it=E2=80=99s n=
+ot from Skrill=2E Spoof or =E2=80=98phishing=E2=80=99 emails usually have g=
+eneric greetings such as 'Dear Skrill member' or =E2=80=9CDear Skrill=E2=80=
+=9D=2E<br/>
+      <br/>
+      Skrill Ltd=2E, Registered in England and Wales no 4260907=2E Register=
+ed office: Skrill Limited, 25 Canada Square, Canary Wharf, London, E14 5LQ,=
+ UK Authorised by the Financial Conduct Authority (FCA) under the Electroni=
+c Money Regulations 2011 for the issuing of electronic money=2E</td>
+    <td width=3D=2230=22 class=3D=22w20=22 style=3D=22font-size:1px; line-h=
+eight:1px;=22><img src=3D=22https://www=2Eskrill=2Ecom/fileadmin/content/Em=
+ails_2015/Lifecycle/Welcome/spacer=2Egif=22 width=3D=2230=22 class=3D=22w20=
+=22 height=3D=221=22 style=3D=22display: block;=22/></td>
+  </tr>
+</table>
+<=21-- Module Four: End -->
+<div style=3D=22clear: both;=22></div>
+
+<table class=3D=22h=22 width=3D=22660=22 cellpadding=3D=220=22 cellspacing=
+=3D=220=22 border=3D=220=22><tr><td><img src=3D=22http://responsys=2Ehs=2El=
+lnwd=2Enet/i5/responsysimages/content/csemeaz0/gmailgif=2Egif=22 width=3D=
+=22660=22 height=3D=221=22 border=3D=220=22 style=3D=22display:block;min-wi=
+dth:660px;width:660px;=22 /></td></tr></table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+

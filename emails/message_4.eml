@@ -1,0 +1,1357 @@
+Delivered-To: plamen@gmail.com
+Received: by 10.112.140.105 with SMTP id rf9csp2299322lbb;
+        Wed, 16 Sep 2015 06:20:58 -0700 (PDT)
+X-Received: by 10.129.80.215 with SMTP id e206mr29103592ywb.94.1442409657867;
+        Wed, 16 Sep 2015 06:20:57 -0700 (PDT)
+Return-Path: <bounce-mc.us3_26596899.804749-plamen=gmail.com@mail169.atl81.rsgsv.net>
+Received: from mail169.atl81.rsgsv.net (mail169.atl81.rsgsv.net. [198.2.129.169])
+        by mx.google.com with ESMTP id i11si11874017ykc.143.2015.09.16.06.20.57
+        for <plamen@gmail.com>;
+        Wed, 16 Sep 2015 06:20:57 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-mc.us3_26596899.804749-plamen=gmail.com@mail169.atl81.rsgsv.net designates 198.2.129.169 as permitted sender) client-ip=198.2.129.169;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounce-mc.us3_26596899.804749-plamen=gmail.com@mail169.atl81.rsgsv.net designates 198.2.129.169 as permitted sender) smtp.mailfrom=bounce-mc.us3_26596899.804749-plamen=gmail.com@mail169.atl81.rsgsv.net;
+       dkim=pass header.i=@mail169.atl81.rsgsv.net;
+       dkim=pass header.i=@gmail.mcsv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail169.atl81.rsgsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=notifications=3Dello.co@mail169.atl81.rsgsv.net;
+ bh=+up7g7/DwqMtXvw4LvNZpp4j4ME=;
+ b=F7loNb9c1JI7LFF8O6e5uQ2MLRb6dF+qGr8meS1WBkQ5W+agEnfw5kfbTKT11WHBGNK119u/HRSs
+   BjXKNM3EBQnKKoPoIGC9SvVsS1GYPQyQ3A1aAd/SXST2BGAscRC+2qiA+ahbQ3vaWOEbiVC/N7s3
+   0Ow0ruzubsbbtA87fs4=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=gmail.mcsv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:X-Feedback-ID:List-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version;
+ bh=+up7g7/DwqMtXvw4LvNZpp4j4ME=;
+ b=h7k7Lwee+D/cTpRZOsZ8iYQKwO7Q5ijPIRkZpfJYquaRfCs6ApgoHAyyF+lq7I9WZNEJJwsy7Q6f
+   4S3xpTjMhq04ZDTMwXXs8Klgh/E6UFxTrIXMRqVhiD10kShDrBOxaoQg7oBR4F+4fpjR7Z1IbUVp
+   BAu4UvW4hev7PK6u3g0=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail169.atl81.rsgsv.net;
+ b=yjzgD9BuO3xXwfJXYaZinEbP0D7XYk2joxOmorzn32QTQYzxq11LcGSdb9XBJRTXJ8iLnGZAB1tr
+   higZXV35uqCjVomyKmil18cgHLkQzbr6thIteEHBm1gSvpushuZ1MICRaKeaZyRU94njEKzHs/ZU
+   HYZB+lHsEj4YwubZHOE=;
+Received: from (127.0.0.1) by mail169.atl81.rsgsv.net id hv5mbi1ohk0o for <plamen@gmail.com>; Wed, 16 Sep 2015 12:59:16 +0000 (envelope-from <bounce-mc.us3_26596899.804749-plamen=gmail.com@mail169.atl81.rsgsv.net>)
+Subject: =?utf-8?Q?Cats=20and=20Mangoes?=
+From: =?utf-8?Q?Ello?= <notifications@ello.co>
+Reply-To: =?utf-8?Q?Ello?= <notifications@ello.co>
+To: <plamen@gmail.com>
+Date: Wed, 16 Sep 2015 12:59:16 +0000
+Message-ID: <9ad48e023e0e67d4a8cda3fc94d17f3758e.20150916125833@mail169.atl81.rsgsv.net>
+X-Mailer: MailChimp Mailer - **CIDc59612a4b44d17f3758e**
+X-Campaign: mailchimp9ad48e023e0e67d4a8cda3fc9.c59612a4b4
+X-campaignid: mailchimp9ad48e023e0e67d4a8cda3fc9.c59612a4b4
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=9ad48e023e0e67d4a8cda3fc9&id=c59612a4b4&e=4d17f3758e
+X-MC-User: 9ad48e023e0e67d4a8cda3fc9
+X-Feedback-ID: 26596899:26596899.804749:us3:mc
+List-ID: 9ad48e023e0e67d4a8cda3fc9mc list <9ad48e023e0e67d4a8cda3fc9.414121.list-id.mcsv.net>
+X-Accounttype: pd
+Sender: "Ello" <notifications=ello.co@mail169.atl81.rsgsv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_867566483"
+MIME-Version: 1.0
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_867566483
+Content-Type: text/plain; charset="us-ascii"
+
+Ello
+
+
+** Your Weekly Ello, curated by Sandra Apperloo
+------------------------------------------------------------
+http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=8eecf7ba9b&e=4d17f3758e
+@sandraapperloo (http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=046cfc27ab&e=4d17f3758e) : I admire makers and made it my ambition to share art of all kinds with as many as possible. For my blog ArtisticMoods (http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=e38f48df7c&e=4d17f3758e) , Ello is an amazing resource of inspiration that continues to get richer every day.
+http://ello.us3.list-manage1.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=02190d221b&e=4d17f3758e
+http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=8ce2037397&e=4d17f3758e
+@uinverso (http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=4b25b3f219&e=4d17f3758e)
+http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=4af9a8828b&e=4d17f3758e
+http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=e7fb532b04&e=4d17f3758e
+@esteepreda (http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=d453c484b7&e=4d17f3758e)
+http://ello.us3.list-manage1.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=365f892b9e&e=4d17f3758e
+http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=dd88cb8c0a&e=4d17f3758e
+@the_hungry_child (http://ello.us3.list-manage1.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=2cf63f4191&e=4d17f3758e)
+you ever have those moments where, you think that you find exactly what you're supposed to do? where everything kind of crystallizes and you feel like everything in your life has been reaching to that point. i think i may have that.
+http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=b74554f609&e=4d17f3758e
+@ladle (http://ello.us3.list-manage1.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=a2332dee20&e=4d17f3758e)
+http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=84cbc9ab6b&e=4d17f3758e
+http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=f3e18ceee9&e=4d17f3758e
+@martharich (http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=b70d8369ab&e=4d17f3758e)
+http://ello.us3.list-manage2.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=454ae89ced&e=4d17f3758e
+http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=55555b6933&e=4d17f3758e
+@jessicavwalsh (http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=47cd121f00&e=4d17f3758e)
+http://ello.us3.list-manage1.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=b1404c15ad&e=4d17f3758e
+http://ello.us3.list-manage2.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=418c754669&e=4d17f3758e
+@sydneysie (http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=a826f24701&e=4d17f3758e)
+http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=6f59f0d1f3&e=4d17f3758e
+http://ello.us3.list-manage2.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=275e8b6d69&e=4d17f3758e
+@makemore_f_art (http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=cb2557dd4d&e=4d17f3758e)
+http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=c9c61d1f78&e=4d17f3758e
+http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=bd89fb5879&e=4d17f3758e
+@nadiuska (http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=59dae946fd&e=4d17f3758e)
+http://ello.us3.list-manage1.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=35c31777fb&e=4d17f3758e
+http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=22f3a5c6a0&e=4d17f3758e
+@ms_pow (http://ello.us3.list-manage1.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=4864b71e0c&e=4d17f3758e)
+Discover More (http://ello.us3.list-manage2.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=eae4a2880b&e=4d17f3758e)
+
+============================================================
+Download the Ello ** App for iOS (http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=bce19c9d2e&e=4d17f3758e)
+.
+Visit the ** Ello x Threadless Store (http://ello.us3.list-manage1.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=8165ce06a3&e=4d17f3758e)
+.
+Follow us on ** Ello (http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=2de3f4f76e&e=4d17f3758e)
+.
+Follow us on ** Twitter (http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=e12d4446a2&e=4d17f3758e)
+.
+Check out the ** Ello  (http://ello.us3.list-manage1.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=b3cca94245&e=4d17f3758e)
+** Community Directory (http://ello.us3.list-manage.com/track/click?u=9ad48e023e0e67d4a8cda3fc9&id=fac6394ad6&e=4d17f3758e)
+.
+Ello, 688 Pine, Burlington, VT 05401
+--_----------=_MCPart_867566483
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+=2Ew3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<link href=3D"http://fonts.googleapis.com/css?family=3DOpen+Sans" rel=3D"s=
+tylesheet" type=3D"text/css">
+
+<!-- Facebook sharing information tags -->
+<meta property=3D"og:title" content=3D"Cats and Mangoes">
+
+<title>Cats and Mangoes</title>
+=09=09
+=09=09
+<!--[if mso]>
+<style type=3D=E2=80=9Dtext/css=E2=80=9D>
+=09=09.bodyContent {
+=09=09font-family: Courier=2C "Courier New"=2C monospace;
+=09=09}
+=09=09</style>
+<![endif]-->
+
+<style type=3D"text/css">
+=09=09#outlook a{
+=09=09=09padding:0;
+=09=09}
+=09=09body{
+=09=09=09width:100% !important;
+=09=09}
+=09=09.ReadMsgBody{
+=09=09=09width:100%;
+=09=09}
+=09=09.ExternalClass{
+=09=09=09width:100%;
+=09=09}
+=09=09body{
+=09=09=09-webkit-text-size-adjust:none;
+=09=09}
+=09=09body{
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09}
+=09=09img{
+=09=09=09border:0;
+=09=09=09height:auto;
+=09=09=09line-height:100%;
+=09=09=09outline:none;
+=09=09=09text-decoration:none;
+=09=09}
+=09=09table td{
+=09=09=09border-collapse:collapse;
+=09=09}
+=09=09#backgroundTable{
+=09=09=09height:100% !important;
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09=09width:100% !important;
+=09=09}
+=09=09body=2C#backgroundTable{
+=09=09=09background-color:#FFFFFF;
+=09=09}
+=09=09#templateContainer{
+=09=09=09border:0px solid #DDDDDD;
+=09=09}
+=09=09h1=2C.h1{
+=09=09=09color:#000000;
+=09=09=09display:block;
+=09=09=09font-family:Helvetica=2C Arial=2C sans-serif;
+=09=09=09font-size:24px;
+=09=09=09font-weight:bold;
+=09=09=09line-height:30px;
+=09=09=09margin-top:0;
+=09=09=09margin-right:0;
+=09=09=09margin-bottom:0px;
+=09=09=09margin-left:0;
+=09=09=09text-align:left;
+=09=09=09text-transform:none;
+=09=09}
+=09=09h2=2C.h2{
+=09=09=09color:#000000;
+=09=09=09display:block;
+=09=09=09font-family:Helvetica=2C Arial=2C sans-serif;
+=09=09=09font-size:30px;
+=09=09=09font-weight:bold;
+=09=09=09line-height:100%;
+=09=09=09margin-top:0;
+=09=09=09margin-right:0;
+=09=09=09margin-bottom:0px;
+=09=09=09margin-left:0;
+=09=09=09text-align:left;
+=09=09=09text-transform:none;
+=09=09}
+=09=09h3=2C.h3{
+=09=09=09color:#000000;
+=09=09=09display:block;
+=09=09=09font-family:Helvetica=2C Arial=2C sans-serif;
+=09=09=09font-size:26px;
+=09=09=09font-weight:bold;
+=09=09=09line-height:100%;
+=09=09=09margin-top:0;
+=09=09=09margin-right:0;
+=09=09=09margin-bottom:0px;
+=09=09=09margin-left:0;
+=09=09=09text-align:left;
+=09=09=09text-transform:none;
+=09=09}
+=09=09h4=2C.h4{
+=09=09=09color:#000000;
+=09=09=09display:block;
+=09=09=09font-family:Helvetica=2C Arial=2C sans-serif;
+=09=09=09font-size:22px;
+=09=09=09font-weight:bold;
+=09=09=09line-height:100%;
+=09=09=09margin-top:0;
+=09=09=09margin-right:0;
+=09=09=09margin-bottom:0px;
+=09=09=09margin-left:0;
+=09=09=09text-align:left;
+=09=09=09text-transform:none;
+=09=09}
+=09=09#templateHeader{
+=09=09=09background-color:#FFFFFF;
+=09=09}
+=09=09#headerImage{
+=09=09=09height:auto;
+=09=09=09max-width:60px;
+=09=09}
+=09=09#templateContainer=2C.bodyContent{
+=09=09=09background-color:#FFFFFF;
+=09=09}
+=09=09.bodyContent div{
+=09=09=09color:#000000;
+=09=09=09font-family:Courier=2C "Courier New"=2C monospace;
+=09=09=09font-size:15px;
+=09=09=09line-height:18px;
+=09=09=09text-align:left;
+=09=09}
+=09=09.bodyContent div a:link=2C.bodyContent div a:visited=2C.bodyContent=
+ div a .yshortcuts{
+=09=09=09color:#000001;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09ul{
+=09=09=09padding:20px;
+=09=09=09margin:0px;
+=09=09}
+=09=09.bodyContent img{
+=09=09=09display:inline;
+=09=09=09height:auto;
+=09=09}
+=09=09#templateButton{
+=09=09=09-moz-border-radius:0px;
+=09=09=09-webkit-border-radius:0px;
+=09=09=09background-color:#000000;
+=09=09=09border:0;
+=09=09=09border-radius:0px;
+=09=09}
+=09=09.templateButtonContent=2C.templateButtonContent a:link=2C.templateBu=
+ttonContent a:visited=2C.templateButtonContent a .yshortcuts{
+=09=09=09color:#FFFFFF;
+=09=09=09font-family:Courier=2C "Courier New"=2C monospace;
+=09=09=09font-size:15px;
+=09=09=09font-weight:normal;
+=09=09=09letter-spacing:0px;
+=09=09=09line-height:100%;
+=09=09=09text-align:center;
+=09=09=09text-decoration:none;
+=09=09}
+=09=09#templateFooter{
+=09=09=09background-color:#FFFFFF;
+=09=09}
+=09=09.footerurlContent div{
+=09=09=09color:#000000;
+=09=09=09font-family:Courier=2C "Courier New"=2C monospace;
+=09=09=09font-size:15px;
+=09=09=09line-height:18px;
+=09=09=09text-align:left;
+=09=09}
+=09=09.footerurlContent div a:link=2C.footerurlContent div a:visited=2C.fo=
+oterurlContent div a .yshortcuts{
+=09=09=09color:#000001;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09.footerprofilemanagementContent div{
+=09=09=09color:#AAAAAA;
+=09=09=09font-family:Courier=2C "Courier New"=2C monospace;
+=09=09=09font-size:11px;
+=09=09=09line-height:13px;
+=09=09=09text-align:left;
+=09=09}
+=09=09.footerprofilemanagementContent div a:link=2C.footerprofilemanagemen=
+tContent div a:visited=2C.footerprofilemanagementContent div a .yshortcuts=
+{
+=09=09=09color:#AAAAAA;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09.footeraddressContent div{
+=09=09=09color:#AAAAAA;
+=09=09=09font-family:Courier=2C "Courier New"=2C monospace;
+=09=09=09font-size:11px;
+=09=09=09line-height:13px;
+=09=09=09text-align:left;
+=09=09}
+=09=09.footeraddressContent div a:link=2C.footeraddressContent div a:visit=
+ed=2C.footeraddressContent div a .yshortcuts{
+=09=09=09color:#AAAAAA;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09.footerContent img{
+=09=09=09display:inline;
+=09=09}
+=09@media only screen and (max-width: 480px){
+=09=09body=2Ctable=2Ctd=2Cp=2Ca=2Cli=2Cblockquote{
+=09=09=09-webkit-text-size-adjust:none !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09body{
+=09=09=09width:auto !important;
+=09=09=09min-width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09td[id=3DbodyCell]{
+=09=09=09padding:10px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[id=3DbodyTable]{
+=09=09=09padding:10px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09img[class=3Dhidebodyspacer]{
+=09=09=09display:none;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09table[id=3DtemplateContainer]{
+=09=09=09max-width:600px !important;
+=09=09=09width:100% !important;
+=09=09=09padding:10px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h1{
+=09=09=09font-size:24px !important;
+=09=09=09line-height:30px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h2{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h3{
+=09=09=09font-size:15px !important;
+=09=09=09line-height:16px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h4{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09img[id=3DheaderImage]{
+=09=09=09height:auto !important;
+=09=09=09max-width:60px !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09div[class=3DbodyContent]{
+=09=09=09font-size:15px !important;
+=09=09=09line-height:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09img[class=3DbodyImage]{
+=09=09=09*/height:auto !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09img[id=3DemojiImage]{
+=09=09=09height:auto !important;
+=09=09=09max-width:22px !important;
+=09=09=09width:22px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09div[class=3DfooterurlContent]{
+=09=09=09font-size:15px !important;
+=09=09=09line-height:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09div[class=3DfooterprofilemanagementContent]{
+=09=09=09font-size:15px !important;
+=09=09=09line-height:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09div[class=3DfooteraddressContent]{
+=09=09=09font-size:13px !important;
+=09=09=09line-height:15px !important;
+=09=09}
+
+}</style></head>
+<body leftmargin=3D"0" marginwidth=3D"0" topmargin=3D"0" marginheight=3D"0=
+" offset=3D"0" style=3D"-webkit-text-size-adjust: none;margin: 0;padding:=
+ 0;background-color: #FFFFFF;width: 100% !important;">
+<center>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"100%" wi=
+dth=3D"100%" id=3D"backgroundTable" style=3D"margin: 0;padding: 0;backgrou=
+nd-color: #FFFFFF;height: 100% !important;width: 100% !important;">
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"border-collapse: collapse;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" id=
+=3D"templateContainer" style=3D"border: 0px solid #DDDDDD;background-color=
+: #FFFFFF;">
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"border-collapse: collapse;">
+<!-- // Begin Template Header \\ -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" id=
+=3D"templateHeader" style=3D"background-color: #FFFFFF;">
+<tr>
+<td valign=3D"top" align=3D"left" style=3D"border-collapse: collapse;">
+<!-- // Begin Module: Header Content \\ -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td valign=3D"top" align=3D"left" height=3D"60" style=3D"border-collapse:=
+ collapse;">
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" width=3D"100%" style=3D"border-collapse:=
+ collapse;">
+<img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/images=
+/11b13dab-eeb1-4dcd-a76f-5cab20210c19.png" alt=3D"Ello" border=3D"0" style=
+=3D"margin: 0;padding: 0;max-width: 60px;border: 0;height: auto;line-heigh=
+t: 100%;outline: none;text-decoration: none;" id=3D"headerImage">
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-collapse:=
+ collapse;">
+</td>
+</tr>
+</table>
+<!-- // End Module: Header Content \\ -->
+</td>
+</tr>
+</table>
+<!-- // End Template Header \\ -->
+</td>
+</tr>
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"border-collapse: collapse;">
+<!-- // Begin Template Body \\ -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" id=
+=3D"templateBody">
+<tr>
+<td valign=3D"top" align=3D"left" style=3D"border-collapse: collapse;">
+
+<!-- // Begin Module: H1 Content \\ -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" mc:=
+repeatable=3D"repeat_1" mc:variant=3D"heading 1" mc:repeatindex=3D"0">
+<tr>
+<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-collapse:=
+ collapse;">
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" width=3D"100%" style=3D"border-collapse:=
+ collapse;">
+<div><h1 class=3D"h1" style=3D"color: #000000;display: block;font-family:=
+ Helvetica=2C Arial=2C sans-serif;font-size: 24px;font-weight: bold;line-h=
+eight: 30px;margin-top: 0;margin-right: 0;margin-bottom: 0px;margin-left:=
+ 0;text-align: left;text-transform: none;">Your Weekly Ello=2C curated by=
+ Sandra Apperloo</h1>
+</div>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-collapse:=
+ collapse;">
+</td>
+</tr>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" mc:repeatable=3D"repeat_1" mc:variant=3D"intro paragraph with image"=
+ mc:repeatindex=3D"1">
+<tr>
+<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-collapse:=
+ collapse;">
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" width=3D"100%" style=3D"border-collapse:=
+ collapse;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td valign=3D"top" align=3D"left" style=3D"border-collapse: collapse;">
+<a href=3D"http://ello.us3.list-manage.com/track/click?u=3D9ad48e023e0e67d=
+4a8cda3fc9&id=3D4ac2105652&e=3D4d17f3758e" target=3D"_blank"><img src=3D"=
+https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/images/f3e6bb75-7a=
+b9-4f26-82ae-632ada46af4b.jpg" alt=3D"" border=3D"0" style=3D"margin: 0;pa=
+dding: 0;max-width: 60px;border: 0;height: auto;line-height: 100%;outline:=
+ none;text-decoration: none;" width=3D"60" class=3D"bodyImage"></a>
+</td>
+<td style=3D"border-collapse: collapse;">
+<img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/images=
+/dded00a4-18c7-4d08-a25b-9131449cf2f2.png" style=3D"height: 1px;border: 0;=
+line-height: 100%;outline: none;text-decoration: none;" width=3D"20">
+</td>
+<td valign=3D"top" align=3D"left" class=3D"bodyContent" style=3D"border-co=
+llapse: collapse;background-color: #FFFFFF;">
+<div class=3D"bodyContent" style=3D"background-color: #FFFFFF;color: #0000=
+00;font-family: Courier=2C &quot;Courier New&quot;=2C monospace;font-size:=
+ 15px;line-height: 18px;text-align: left;"><strong><a href=3D"http://ello.=
+us3.list-manage1.com/track/click?u=3D9ad48e023e0e67d4a8cda3fc9&id=3D626c90=
+a2b6&e=3D4d17f3758e" target=3D"_blank" style=3D"color: #000001;font-weigh=
+t: normal;text-decoration: underline;">@sandraapperloo</a>:&nbsp;</strong>=
+<em>I admire makers and made it my ambition to share art of all kinds with=
+ as many as possible. For my blog <a href=3D"http://ello.us3.list-manage.c=
+om/track/click?u=3D9ad48e023e0e67d4a8cda3fc9&id=3D998c67c64f&e=3D=
+4d17f3758e" target=3D"_blank" style=3D"color: #000001;font-weight: normal;text-dec=
+oration: underline;">ArtisticMoods</a>=2C Ello is an amazing resource of i=
+nspiration that continues to get richer every day.</em></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-collapse:=
+ collapse;">
+</td>
+</tr>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" mc:repeatable=3D"repeat_1" mc:variant=3D"image caption with image" mc=
+:repeatindex=3D"2">
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-coll=
+apse: collapse;">
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"center" style=3D"border-collapse: collap=
+se;">
+=09=09=09<a href=3D"http://ello.us3.list-manage1.com/track/click?u=3D9ad48=
+e023e0e67d4a8cda3fc9&id=3D02abddc403&e=3D4d17f3758e" target=3D"_blank"><i=
+mg src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/images/3=
+e667d3b-37a8-4a89-804d-eb59f452980a.jpg" alt=3D"" border=3D"0" style=3D"ma=
+rgin: 0;padding: 0;max-width: 600px;border: 0;height: auto;line-height: 10=
+0%;outline: none;text-decoration: none;" width=3D"600" class=3D"bodyImage"=
+></a>
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" height=3D"20" style=3D"border-coll=
+apse: collapse;">
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" style=3D"border-collapse: collapse=
+;">
+=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td valign=3D"top" align=3D"left" style=3D"border-collapse:=
+ collapse;">
+=09=09=09=09=09<a href=3D"http://ello.us3.list-manage.com/track/click?u=3D=
+9ad48e023e0e67d4a8cda3fc9&id=3Df660f4335f&e=3D4d17f3758e" target=3D"_blan=
+k"><img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/ima=
+ges/e995f0d3-5f27-471d-a10f-442a43d99dec.jpg" alt=3D"" border=3D"0" style=
+=3D"margin: 0;padding: 0;max-width: 30px;border: 0;height: auto;line-heigh=
+t: 100%;outline: none;text-decoration: none;" width=3D"30" class=3D"bodyIm=
+age"></a>
+=09=09=09=09=09</td>
+=09=09=09=09=09<td style=3D"border-collapse: collapse;">
+=09=09=09=09=09=09<img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67=
+d4a8cda3fc9/images/dded00a4-18c7-4d08-a25b-9131449cf2f2.png" style=3D"heig=
+ht: 1px;border: 0;line-height: 100%;outline: none;text-decoration: none;"=
+ width=3D"20">
+=09=09=09=09=09</td>
+=09=09=09=09=09<td valign=3D"top" align=3D"left" class=3D"bodyContent" sty=
+le=3D"border-collapse: collapse;background-color: #FFFFFF;">
+=09=09=09=09=09=09<div class=3D"bodyContent" style=3D"background-color: #F=
+FFFFF;color: #000000;font-family: Courier=2C &quot;Courier New&quot;=2C mo=
+nospace;font-size: 15px;line-height: 18px;text-align: left;"><a href=3D"ht=
+tp://ello.us3.list-manage.com/track/click?u=3D9ad48e023e0e67d4a8cda3fc9&id=
+=3D7fb8dedfb6&e=3D4d17f3758e" target=3D"_blank" style=3D"color: #000001;f=
+ont-weight: normal;text-decoration: underline;">@uinverso</a></div>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09</td>
+=09</tr>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" mc:repeatable=3D"repeat_1" mc:variant=3D"image caption with image" mc=
+:repeatindex=3D"3">
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-coll=
+apse: collapse;">
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"center" style=3D"border-collapse: collap=
+se;">
+=09=09=09<a href=3D"http://ello.us3.list-manage.com/track/click?u=3D9ad48e=
+023e0e67d4a8cda3fc9&id=3D0e648d9355&e=3D4d17f3758e" target=3D"_blank"><im=
+g src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/images/d7=
+b808a1-f97f-410e-afe9-9688c1518783.jpg" alt=3D"" border=3D"0" style=3D"mar=
+gin: 0;padding: 0;max-width: 600px;border: 0;height: auto;line-height: 100=
+%;outline: none;text-decoration: none;" width=3D"600" class=3D"bodyImage">=
+</a>
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" height=3D"20" style=3D"border-coll=
+apse: collapse;">
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" style=3D"border-collapse: collapse=
+;">
+=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td valign=3D"top" align=3D"left" style=3D"border-collapse:=
+ collapse;">
+=09=09=09=09=09<a href=3D"http://ello.us3.list-manage.com/track/click?u=3D=
+9ad48e023e0e67d4a8cda3fc9&id=3Dfe62eaa35f&e=3D4d17f3758e" target=3D"_blan=
+k"><img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/ima=
+ges/c2396054-3e66-4df4-91f3-f9145a594aef.jpg" alt=3D"" border=3D"0" style=
+=3D"margin: 0;padding: 0;max-width: 30px;border: 0;height: auto;line-heigh=
+t: 100%;outline: none;text-decoration: none;" width=3D"30" class=3D"bodyIm=
+age"></a>
+=09=09=09=09=09</td>
+=09=09=09=09=09<td style=3D"border-collapse: collapse;">
+=09=09=09=09=09=09<img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67=
+d4a8cda3fc9/images/dded00a4-18c7-4d08-a25b-9131449cf2f2.png" style=3D"heig=
+ht: 1px;border: 0;line-height: 100%;outline: none;text-decoration: none;"=
+ width=3D"20">
+=09=09=09=09=09</td>
+=09=09=09=09=09<td valign=3D"top" align=3D"left" class=3D"bodyContent" sty=
+le=3D"border-collapse: collapse;background-color: #FFFFFF;">
+=09=09=09=09=09=09<div class=3D"bodyContent" style=3D"background-color: #F=
+FFFFF;color: #000000;font-family: Courier=2C &quot;Courier New&quot;=2C mo=
+nospace;font-size: 15px;line-height: 18px;text-align: left;"><a href=3D"ht=
+tp://ello.us3.list-manage.com/track/click?u=3D9ad48e023e0e67d4a8cda3fc9&id=
+=3Df6ec27203b&e=3D4d17f3758e" target=3D"_blank" style=3D"color: #000001;f=
+ont-weight: normal;text-decoration: underline;">@esteepreda</a></div>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09</td>
+=09</tr>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" mc:repeatable=3D"repeat_1" mc:variant=3D"image caption with image" mc=
+:repeatindex=3D"4">
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-coll=
+apse: collapse;">
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"center" style=3D"border-collapse: collap=
+se;">
+=09=09=09<a href=3D"http://ello.us3.list-manage.com/track/click?u=3D9ad48e=
+023e0e67d4a8cda3fc9&id=3D1de737de0f&e=3D4d17f3758e" target=3D"_blank"><im=
+g src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/images/32=
+ef1b5b-768e-405e-b55a-ee9bb9961aac.jpg" alt=3D"" border=3D"0" style=3D"mar=
+gin: 0;padding: 0;max-width: 600px;border: 0;height: auto;line-height: 100=
+%;outline: none;text-decoration: none;" width=3D"600" class=3D"bodyImage">=
+</a>
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" height=3D"20" style=3D"border-coll=
+apse: collapse;">
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" style=3D"border-collapse: collapse=
+;">
+=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td valign=3D"top" align=3D"left" style=3D"border-collapse:=
+ collapse;">
+=09=09=09=09=09<a href=3D"http://ello.us3.list-manage.com/track/click?u=3D=
+9ad48e023e0e67d4a8cda3fc9&id=3D3ee36924aa&e=3D4d17f3758e" target=3D"_blan=
+k"><img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/ima=
+ges/28eb5529-d333-4e82-8b1a-cfee126f4fb7.jpg" alt=3D"" border=3D"0" style=
+=3D"margin: 0;padding: 0;max-width: 30px;border: 0;height: auto;line-heigh=
+t: 100%;outline: none;text-decoration: none;" width=3D"30" class=3D"bodyIm=
+age"></a>
+=09=09=09=09=09</td>
+=09=09=09=09=09<td style=3D"border-collapse: collapse;">
+=09=09=09=09=09=09<img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67=
+d4a8cda3fc9/images/dded00a4-18c7-4d08-a25b-9131449cf2f2.png" style=3D"heig=
+ht: 1px;border: 0;line-height: 100%;outline: none;text-decoration: none;"=
+ width=3D"20">
+=09=09=09=09=09</td>
+=09=09=09=09=09<td valign=3D"top" align=3D"left" class=3D"bodyContent" sty=
+le=3D"border-collapse: collapse;background-color: #FFFFFF;">
+=09=09=09=09=09=09<div class=3D"bodyContent" style=3D"background-color: #F=
+FFFFF;color: #000000;font-family: Courier=2C &quot;Courier New&quot;=2C mo=
+nospace;font-size: 15px;line-height: 18px;text-align: left;"><a href=3D"ht=
+tp://ello.us3.list-manage.com/track/click?u=3D9ad48e023e0e67d4a8cda3fc9&id=
+=3Dfed5a3e990&e=3D4d17f3758e" target=3D"_blank" style=3D"color: #000001;f=
+ont-weight: normal;text-decoration: underline;">@the_hungry_child</a></div=
+>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09</td>
+=09</tr>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" mc:repeatable=3D"repeat_1" mc:variant=3D"text caption with image" mc:=
+repeatindex=3D"5">
+<tr>
+<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-collapse:=
+ collapse;">
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" width=3D"100%" class=3D"bodyContent" sty=
+le=3D"border-collapse: collapse;background-color: #FFFFFF;">
+<div class=3D"bodyContent" style=3D"background-color: #FFFFFF;color: #0000=
+00;font-family: Courier=2C &quot;Courier New&quot;=2C monospace;font-size:=
+ 15px;line-height: 18px;text-align: left;">you ever have those moments whe=
+re=2C you think that you find exactly what you&#39;re supposed to do? wher=
+e everything kind of crystallizes and you feel like everything in your lif=
+e has been reaching to that point. i think i may have that.</div>
+</td>
+</tr>
+<tr>
+=09<td valign=3D"top" align=3D"left" height=3D"20" style=3D"border-collaps=
+e: collapse;">
+=09</td>
+</tr>
+<tr>
+=09<td valign=3D"top" align=3D"left" style=3D"border-collapse: collapse;">
+=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td valign=3D"top" align=3D"left" style=3D"border-collapse:=
+ collapse;">
+=09=09=09=09=09<a href=3D"http://ello.us3.list-manage.com/track/click?u=3D=
+9ad48e023e0e67d4a8cda3fc9&id=3Db08e3da0e8&e=3D4d17f3758e" target=3D"_blan=
+k"><img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/ima=
+ges/91e4acc6-2206-44ea-9b89-2f9edaeb7181.jpg" alt=3D"" border=3D"0" style=
+=3D"margin: 0;padding: 0;max-width: 30px;border: 0;height: auto;line-heigh=
+t: 100%;outline: none;text-decoration: none;" width=3D"30" class=3D"bodyIm=
+age"></a>
+=09=09=09=09=09</td>
+=09=09=09=09=09<td style=3D"border-collapse: collapse;">
+=09=09=09=09=09=09<img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67=
+d4a8cda3fc9/images/dded00a4-18c7-4d08-a25b-9131449cf2f2.png" style=3D"heig=
+ht: 1px;border: 0;line-height: 100%;outline: none;text-decoration: none;"=
+ width=3D"20">
+=09=09=09=09=09</td>
+=09=09=09=09=09<td valign=3D"top" align=3D"left" class=3D"bodyContent" sty=
+le=3D"border-collapse: collapse;background-color: #FFFFFF;">
+=09=09=09=09=09=09<div class=3D"bodyContent" style=3D"background-color: #F=
+FFFFF;color: #000000;font-family: Courier=2C &quot;Courier New&quot;=2C mo=
+nospace;font-size: 15px;line-height: 18px;text-align: left;"><a href=3D"ht=
+tp://ello.us3.list-manage1.com/track/click?u=3D9ad48e023e0e67d4a8cda3fc9&i=
+d=3D0b04467f45&e=3D4d17f3758e" target=3D"_blank" style=3D"color: #000001;=
+font-weight: normal;text-decoration: underline;">@ladle</a></div>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-collapse:=
+ collapse;">
+</td>
+</tr>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" mc:repeatable=3D"repeat_1" mc:variant=3D"image caption with image" mc=
+:repeatindex=3D"6">
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-coll=
+apse: collapse;">
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"center" style=3D"border-collapse: collap=
+se;">
+=09=09=09<a href=3D"http://ello.us3.list-manage.com/track/click?u=3D9ad48e=
+023e0e67d4a8cda3fc9&id=3Db9afd1621e&e=3D4d17f3758e" target=3D"_blank"><im=
+g src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/images/83=
+749142-6bee-400f-802f-03cb4ecf667b.jpg" alt=3D"" border=3D"0" style=3D"mar=
+gin: 0;padding: 0;max-width: 600px;border: 0;height: auto;line-height: 100=
+%;outline: none;text-decoration: none;" width=3D"600" class=3D"bodyImage">=
+</a>
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" height=3D"20" style=3D"border-coll=
+apse: collapse;">
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" style=3D"border-collapse: collapse=
+;">
+=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td valign=3D"top" align=3D"left" style=3D"border-collapse:=
+ collapse;">
+=09=09=09=09=09<a href=3D"http://ello.us3.list-manage1.com/track/click?u=
+=3D9ad48e023e0e67d4a8cda3fc9&id=3D3edeeee286&e=3D4d17f3758e" target=3D"_b=
+lank"><img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/=
+images/b4afe908-4992-46d8-a4cc-d665c6b960ed.jpg" alt=3D"" border=3D"0" sty=
+le=3D"margin: 0;padding: 0;max-width: 30px;border: 0;height: auto;line-hei=
+ght: 100%;outline: none;text-decoration: none;" width=3D"30" class=3D"body=
+Image"></a>
+=09=09=09=09=09</td>
+=09=09=09=09=09<td style=3D"border-collapse: collapse;">
+=09=09=09=09=09=09<img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67=
+d4a8cda3fc9/images/dded00a4-18c7-4d08-a25b-9131449cf2f2.png" style=3D"heig=
+ht: 1px;border: 0;line-height: 100%;outline: none;text-decoration: none;"=
+ width=3D"20">
+=09=09=09=09=09</td>
+=09=09=09=09=09<td valign=3D"top" align=3D"left" class=3D"bodyContent" sty=
+le=3D"border-collapse: collapse;background-color: #FFFFFF;">
+=09=09=09=09=09=09<div class=3D"bodyContent" style=3D"background-color: #F=
+FFFFF;color: #000000;font-family: Courier=2C &quot;Courier New&quot;=2C mo=
+nospace;font-size: 15px;line-height: 18px;text-align: left;"><a href=3D"ht=
+tp://ello.us3.list-manage1.com/track/click?u=3D9ad48e023e0e67d4a8cda3fc9&i=
+d=3D656c2a0d69&e=3D4d17f3758e" target=3D"_blank" style=3D"color: #000001;=
+font-weight: normal;text-decoration: underline;">@martharich</a></div>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09</td>
+=09</tr>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" mc:repeatable=3D"repeat_1" mc:variant=3D"image caption with image" mc=
+:repeatindex=3D"7">
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-coll=
+apse: collapse;">
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"center" style=3D"border-collapse: collap=
+se;">
+=09=09=09<a href=3D"http://ello.us3.list-manage1.com/track/click?u=3D9ad48=
+e023e0e67d4a8cda3fc9&id=3D5fe02e6e52&e=3D4d17f3758e" target=3D"_blank"><i=
+mg src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/images/1=
+5146e5f-00e1-48a5-b2cf-d12402c8dcf4.jpg" alt=3D"" border=3D"0" style=3D"ma=
+rgin: 0;padding: 0;max-width: 600px;border: 0;height: auto;line-height: 10=
+0%;outline: none;text-decoration: none;" width=3D"600" class=3D"bodyImage"=
+></a>
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" height=3D"20" style=3D"border-coll=
+apse: collapse;">
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" style=3D"border-collapse: collapse=
+;">
+=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td valign=3D"top" align=3D"left" style=3D"border-collapse:=
+ collapse;">
+=09=09=09=09=09<a href=3D"http://ello.us3.list-manage1.com/track/click?u=
+=3D9ad48e023e0e67d4a8cda3fc9&id=3D7e7675d457&e=3D4d17f3758e" target=3D"_b=
+lank"><img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/=
+images/11d9f326-680e-42de-92be-634b83abc15b.jpg" alt=3D"" border=3D"0" sty=
+le=3D"margin: 0;padding: 0;max-width: 30px;border: 0;height: auto;line-hei=
+ght: 100%;outline: none;text-decoration: none;" width=3D"30" class=3D"body=
+Image"></a>
+=09=09=09=09=09</td>
+=09=09=09=09=09<td style=3D"border-collapse: collapse;">
+=09=09=09=09=09=09<img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67=
+d4a8cda3fc9/images/dded00a4-18c7-4d08-a25b-9131449cf2f2.png" style=3D"heig=
+ht: 1px;border: 0;line-height: 100%;outline: none;text-decoration: none;"=
+ width=3D"20">
+=09=09=09=09=09</td>
+=09=09=09=09=09<td valign=3D"top" align=3D"left" class=3D"bodyContent" sty=
+le=3D"border-collapse: collapse;background-color: #FFFFFF;">
+=09=09=09=09=09=09<div class=3D"bodyContent" style=3D"background-color: #F=
+FFFFF;color: #000000;font-family: Courier=2C &quot;Courier New&quot;=2C mo=
+nospace;font-size: 15px;line-height: 18px;text-align: left;"><a href=3D"ht=
+tp://ello.us3.list-manage.com/track/click?u=3D9ad48e023e0e67d4a8cda3fc9&id=
+=3De0854475fa&e=3D4d17f3758e" target=3D"_blank" style=3D"color: #000001;f=
+ont-weight: normal;text-decoration: underline;">@jessicavwalsh</a></div>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09</td>
+=09</tr>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" mc:repeatable=3D"repeat_1" mc:variant=3D"image caption with image" mc=
+:repeatindex=3D"8">
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-coll=
+apse: collapse;">
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"center" style=3D"border-collapse: collap=
+se;">
+=09=09=09<a href=3D"http://ello.us3.list-manage.com/track/click?u=3D9ad48e=
+023e0e67d4a8cda3fc9&id=3D3b74e538bc&e=3D4d17f3758e" target=3D"_blank"><im=
+g src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/images/09=
+240ad7-27c2-4ad5-9b95-3dd3b9b0ea77.jpg" alt=3D"" border=3D"0" style=3D"mar=
+gin: 0;padding: 0;max-width: 600px;border: 0;height: auto;line-height: 100=
+%;outline: none;text-decoration: none;" width=3D"600" class=3D"bodyImage">=
+</a>
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" height=3D"20" style=3D"border-coll=
+apse: collapse;">
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" style=3D"border-collapse: collapse=
+;">
+=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td valign=3D"top" align=3D"left" style=3D"border-collapse:=
+ collapse;">
+=09=09=09=09=09<a href=3D"http://ello.us3.list-manage1.com/track/click?u=
+=3D9ad48e023e0e67d4a8cda3fc9&id=3D5174eee522&e=3D4d17f3758e" target=3D"_b=
+lank"><img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/=
+images/58e71c75-5483-40c8-9007-fd441194dceb.jpg" alt=3D"" border=3D"0" sty=
+le=3D"margin: 0;padding: 0;max-width: 30px;border: 0;height: auto;line-hei=
+ght: 100%;outline: none;text-decoration: none;" width=3D"30" class=3D"body=
+Image"></a>
+=09=09=09=09=09</td>
+=09=09=09=09=09<td style=3D"border-collapse: collapse;">
+=09=09=09=09=09=09<img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67=
+d4a8cda3fc9/images/dded00a4-18c7-4d08-a25b-9131449cf2f2.png" style=3D"heig=
+ht: 1px;border: 0;line-height: 100%;outline: none;text-decoration: none;"=
+ width=3D"20">
+=09=09=09=09=09</td>
+=09=09=09=09=09<td valign=3D"top" align=3D"left" class=3D"bodyContent" sty=
+le=3D"border-collapse: collapse;background-color: #FFFFFF;">
+=09=09=09=09=09=09<div class=3D"bodyContent" style=3D"background-color: #F=
+FFFFF;color: #000000;font-family: Courier=2C &quot;Courier New&quot;=2C mo=
+nospace;font-size: 15px;line-height: 18px;text-align: left;"><a href=3D"ht=
+tp://ello.us3.list-manage2.com/track/click?u=3D9ad48e023e0e67d4a8cda3fc9&i=
+d=3D531e467eb3&e=3D4d17f3758e" target=3D"_blank" style=3D"color: #000001;=
+font-weight: normal;text-decoration: underline;">@sydneysie</a></div>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09</td>
+=09</tr>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" mc:repeatable=3D"repeat_1" mc:variant=3D"image caption with image" mc=
+:repeatindex=3D"9">
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-coll=
+apse: collapse;">
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"center" style=3D"border-collapse: collap=
+se;">
+=09=09=09<a href=3D"http://ello.us3.list-manage2.com/track/click?u=3D9ad48=
+e023e0e67d4a8cda3fc9&id=3D667f9915c4&e=3D4d17f3758e" target=3D"_blank"><i=
+mg src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/images/a=
+57666a0-d927-4892-bf79-637a8e189a1a.jpg" alt=3D"" border=3D"0" style=3D"ma=
+rgin: 0;padding: 0;max-width: 600px;border: 0;height: auto;line-height: 10=
+0%;outline: none;text-decoration: none;" width=3D"600" class=3D"bodyImage"=
+></a>
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" height=3D"20" style=3D"border-coll=
+apse: collapse;">
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" style=3D"border-collapse: collapse=
+;">
+=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td valign=3D"top" align=3D"left" style=3D"border-collapse:=
+ collapse;">
+=09=09=09=09=09<a href=3D"http://ello.us3.list-manage1.com/track/click?u=
+=3D9ad48e023e0e67d4a8cda3fc9&id=3Dfe7f959bcf&e=3D4d17f3758e" target=3D"_b=
+lank"><img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/=
+images/3f400b3a-3bd5-4dee-9988-35430ac4679b.jpg" alt=3D"" border=3D"0" sty=
+le=3D"margin: 0;padding: 0;max-width: 30px;border: 0;height: auto;line-hei=
+ght: 100%;outline: none;text-decoration: none;" width=3D"30" class=3D"body=
+Image"></a>
+=09=09=09=09=09</td>
+=09=09=09=09=09<td style=3D"border-collapse: collapse;">
+=09=09=09=09=09=09<img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67=
+d4a8cda3fc9/images/dded00a4-18c7-4d08-a25b-9131449cf2f2.png" style=3D"heig=
+ht: 1px;border: 0;line-height: 100%;outline: none;text-decoration: none;"=
+ width=3D"20">
+=09=09=09=09=09</td>
+=09=09=09=09=09<td valign=3D"top" align=3D"left" class=3D"bodyContent" sty=
+le=3D"border-collapse: collapse;background-color: #FFFFFF;">
+=09=09=09=09=09=09<div class=3D"bodyContent" style=3D"background-color: #F=
+FFFFF;color: #000000;font-family: Courier=2C &quot;Courier New&quot;=2C mo=
+nospace;font-size: 15px;line-height: 18px;text-align: left;"><a href=3D"ht=
+tp://ello.us3.list-manage.com/track/click?u=3D9ad48e023e0e67d4a8cda3fc9&id=
+=3Db695d06516&e=3D4d17f3758e" target=3D"_blank" style=3D"color: #000001;f=
+ont-weight: normal;text-decoration: underline;">@makemore_f_art</a></div>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09</td>
+=09</tr>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" mc:repeatable=3D"repeat_1" mc:variant=3D"image caption with image" mc=
+:repeatindex=3D"10">
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-coll=
+apse: collapse;">
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"center" style=3D"border-collapse: collap=
+se;">
+=09=09=09<a href=3D"http://ello.us3.list-manage2.com/track/click?u=3D9ad48=
+e023e0e67d4a8cda3fc9&id=3D0c89e9907c&e=3D4d17f3758e" target=3D"_blank"><i=
+mg src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/images/3=
+6587efa-0083-4965-83f7-e62c0a2d3691.jpg" alt=3D"" border=3D"0" style=3D"ma=
+rgin: 0;padding: 0;max-width: 600px;border: 0;height: auto;line-height: 10=
+0%;outline: none;text-decoration: none;" width=3D"600" class=3D"bodyImage"=
+></a>
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" height=3D"20" style=3D"border-coll=
+apse: collapse;">
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" style=3D"border-collapse: collapse=
+;">
+=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td valign=3D"top" align=3D"left" style=3D"border-collapse:=
+ collapse;">
+=09=09=09=09=09<a href=3D"http://ello.us3.list-manage2.com/track/click?u=
+=3D9ad48e023e0e67d4a8cda3fc9&id=3D95a61d5ef5&e=3D4d17f3758e" target=3D"_b=
+lank"><img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/=
+images/0c3f1e8f-3651-4f2e-b325-c6dc46dd29ff.jpg" alt=3D"" border=3D"0" sty=
+le=3D"margin: 0;padding: 0;max-width: 30px;border: 0;height: auto;line-hei=
+ght: 100%;outline: none;text-decoration: none;" width=3D"30" class=3D"body=
+Image"></a>
+=09=09=09=09=09</td>
+=09=09=09=09=09<td style=3D"border-collapse: collapse;">
+=09=09=09=09=09=09<img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67=
+d4a8cda3fc9/images/dded00a4-18c7-4d08-a25b-9131449cf2f2.png" style=3D"heig=
+ht: 1px;border: 0;line-height: 100%;outline: none;text-decoration: none;"=
+ width=3D"20">
+=09=09=09=09=09</td>
+=09=09=09=09=09<td valign=3D"top" align=3D"left" class=3D"bodyContent" sty=
+le=3D"border-collapse: collapse;background-color: #FFFFFF;">
+=09=09=09=09=09=09<div class=3D"bodyContent" style=3D"background-color: #F=
+FFFFF;color: #000000;font-family: Courier=2C &quot;Courier New&quot;=2C mo=
+nospace;font-size: 15px;line-height: 18px;text-align: left;"><a href=3D"ht=
+tp://ello.us3.list-manage.com/track/click?u=3D9ad48e023e0e67d4a8cda3fc9&id=
+=3D183ae2d26b&e=3D4d17f3758e" target=3D"_blank" style=3D"color: #000001;f=
+ont-weight: normal;text-decoration: underline;">@nadiuska</a></div>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09</td>
+=09</tr>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" mc:repeatable=3D"repeat_1" mc:variant=3D"image caption with image" mc=
+:repeatindex=3D"11">
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-coll=
+apse: collapse;">
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"center" style=3D"border-collapse: collap=
+se;">
+=09=09=09<a href=3D"http://ello.us3.list-manage2.com/track/click?u=3D9ad48=
+e023e0e67d4a8cda3fc9&id=3Ddd86b01e46&e=3D4d17f3758e" target=3D"_blank"><i=
+mg src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/images/4=
+2456d4b-d99b-466f-874c-ac7f27c690cd.jpg" alt=3D"" border=3D"0" style=3D"ma=
+rgin: 0;padding: 0;max-width: 600px;border: 0;height: auto;line-height: 10=
+0%;outline: none;text-decoration: none;" width=3D"600" class=3D"bodyImage"=
+></a>
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" height=3D"20" style=3D"border-coll=
+apse: collapse;">
+=09=09</td>
+=09</tr>
+=09<tr>
+=09=09<td valign=3D"top" align=3D"left" style=3D"border-collapse: collapse=
+;">
+=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td valign=3D"top" align=3D"left" style=3D"border-collapse:=
+ collapse;">
+=09=09=09=09=09<a href=3D"http://ello.us3.list-manage1.com/track/click?u=
+=3D9ad48e023e0e67d4a8cda3fc9&id=3D9463055821&e=3D4d17f3758e" target=3D"_b=
+lank"><img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67d4a8cda3fc9/=
+images/a2071ccd-3881-4ff4-8cd7-26c85769d9e0.jpg" alt=3D"" border=3D"0" sty=
+le=3D"margin: 0;padding: 0;max-width: 30px;border: 0;height: auto;line-hei=
+ght: 100%;outline: none;text-decoration: none;" width=3D"30" class=3D"body=
+Image"></a>
+=09=09=09=09=09</td>
+=09=09=09=09=09<td style=3D"border-collapse: collapse;">
+=09=09=09=09=09=09<img src=3D"https://gallery.mailchimp.com/9ad48e023e0e67=
+d4a8cda3fc9/images/dded00a4-18c7-4d08-a25b-9131449cf2f2.png" style=3D"heig=
+ht: 1px;border: 0;line-height: 100%;outline: none;text-decoration: none;"=
+ width=3D"20">
+=09=09=09=09=09</td>
+=09=09=09=09=09<td valign=3D"top" align=3D"left" class=3D"bodyContent" sty=
+le=3D"border-collapse: collapse;background-color: #FFFFFF;">
+=09=09=09=09=09=09<div class=3D"bodyContent" style=3D"background-color: #F=
+FFFFF;color: #000000;font-family: Courier=2C &quot;Courier New&quot;=2C mo=
+nospace;font-size: 15px;line-height: 18px;text-align: left;"><a href=3D"ht=
+tp://ello.us3.list-manage1.com/track/click?u=3D9ad48e023e0e67d4a8cda3fc9&i=
+d=3D3d0e621d96&e=3D4d17f3758e" target=3D"_blank" style=3D"color: #000001;=
+font-weight: normal;text-decoration: underline;">@ms_pow</a></div>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09</td>
+=09</tr>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" mc:repeatable=3D"repeat_1" mc:variant=3D"button" mc:repeatindex=3D"12=
+">
+<tr>
+<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-collapse:=
+ collapse;">
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" style=3D"border-collapse: collapse;">
+<table border=3D"0" cellpadding=3D"25" cellspacing=3D"0" id=3D"templateBut=
+ton" style=3D"-moz-border-radius: 0px;-webkit-border-radius: 0px;backgroun=
+d-color: #000000;border: 0;border-radius: 0px;">
+<tr>
+<td align=3D"center" valign=3D"middle" class=3D"templateButtonContent" sty=
+le=3D"border-collapse: collapse;color: #FFFFFF;font-family: Courier=2C &qu=
+ot;Courier New&quot;=2C monospace;font-size: 15px;font-weight: normal;lett=
+er-spacing: 0px;line-height: 100%;text-align: center;text-decoration: none=
+;">
+<div><a href=3D"http://ello.us3.list-manage1.com/track/click?u=3D9ad48e023=
+e0e67d4a8cda3fc9&id=3D981077f809&e=3D4d17f3758e" target=3D"_blank" style=
+=3D"color: #FFFFFF;font-family: Courier=2C &quot;Courier New&quot;=2C mono=
+space;font-size: 15px;font-weight: normal;letter-spacing: 0px;line-height:=
+ 100%;text-align: center;text-decoration: none;">Discover More</a></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-collapse:=
+ collapse;">
+</td>
+</tr>
+</table>
+<!-- // End Module: H1 Content \\ -->
+
+<!-- // Begin Module: Body Content \\ -->
+
+<!-- // End Module: Body Content \\ -->
+
+<!-- // Begin Module: Body Content \\ -->
+
+<!-- // End Module: Body Content \\ -->
+
+<!-- // Begin Module: Image Content \\ -->
+
+<!-- // End Module: Image Content \\ -->
+
+<!-- // Begin Module: Image Content \\ -->
+
+<!-- // End Module: Image Content \\ -->
+
+<!-- // Begin Module: Body Content \\ -->
+
+<!-- // End Module: Body Content \\ -->
+
+<!-- // Begin Module: List Content \\ -->
+
+<!-- // End Module: List Content \\ -->
+
+<!-- // Begin Module: Button Content \\ -->
+
+<!-- // End Module: Button Content \\ -->
+
+<!-- // Begin Module: Body Links Content \\ -->
+
+<!-- // End Module: Body Links Content \\ -->
+
+<!-- // Begin Module: Emoji Image Content \\ -->
+
+<!-- // End Module: Emoji Image Content \\ -->
+
+</td>
+</tr>
+</table>
+<!-- // End Template Body \\ -->
+</td>
+</tr>
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"border-collapse: collapse;">
+<!-- // Begin Template Footer \\ -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" id=
+=3D"templateFooter" style=3D"background-color: #FFFFFF;">
+<tr>
+<td valign=3D"top" align=3D"left" style=3D"border-collapse: collapse;">
+<!-- // Begin Module: Standard Footer \\ -->
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td valign=3D"top" align=3D"left" height=3D"170" style=3D"border-collapse:=
+ collapse;">
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" class=3D"footerurlContent" style=3D"bord=
+er-collapse: collapse;">
+<div class=3D"footerurlContent" style=3D"color: #000000;font-family: Couri=
+er=2C &quot;Courier New&quot;=2C monospace;font-size: 15px;line-height: 18=
+px;text-align: left;"><span style=3D"font-size:14px">Download the Ello <a=
+ href=3D"http://ello.us3.list-manage.com/track/click?u=3D9ad48e023e0e67d4a=
+8cda3fc9&id=3Dcf6bded2b2&e=3D4d17f3758e" target=3D"_blank" style=3D"color=
+: #000001;font-weight: normal;text-decoration: underline;">App for iOS</a>=
+=2E<br>
+Visit the&nbsp;</span><a href=3D"http://ello.us3.list-manage.com/track/cli=
+ck?u=3D9ad48e023e0e67d4a8cda3fc9&id=3D921587f188&e=3D4d17f3758e" style=3D=
+"color: rgb(0=2C 0=2C 1);font-size: 14px;font-weight: normal;text-decorati=
+on: underline;">Ello x Threadless Store</a><span style=3D"font-size:14px">=
+=2E</span><br style=3D"font-size: 14px;">
+<span style=3D"font-size:14px">Follow us on&nbsp;</span><a href=3D"http://=
+ello.us3.list-manage2.com/track/click?u=3D9ad48e023e0e67d4a8cda3fc9&id=3D9=
+882a0ac0c&e=3D4d17f3758e" style=3D"color: rgb(0=2C 0=2C 1);font-size: 14p=
+x;font-weight: normal;text-decoration: underline;" target=3D"_blank">Ello<=
+/a><span style=3D"font-size:14px">.</span><br style=3D"font-size: 14px;">
+<span style=3D"font-size:14px">Follow us on&nbsp;</span><a href=3D"http://=
+ello.us3.list-manage.com/track/click?u=3D9ad48e023e0e67d4a8cda3fc9&id=3Dc6=
+44c1a440&e=3D4d17f3758e" style=3D"color: rgb(0=2C 0=2C 1);font-size: 14px=
+;font-weight: normal;text-decoration: underline;" target=3D"_blank">Twitte=
+r</a><span style=3D"font-size:14px">.</span><br style=3D"font-size: 14px;"=
+>
+<span style=3D"font-size:14px">Check out the&nbsp;</span><a href=3D"http:/=
+/ello.us3.list-manage2.com/track/click?u=3D9ad48e023e0e67d4a8cda3fc9&id=3D=
+f5fc569bbc&e=3D4d17f3758e" style=3D"color: rgb(0=2C 0=2C 1);font-size: 14=
+px;font-weight: normal;text-decoration: underline;" target=3D"_blank">Ello=
+&nbsp;</a><a href=3D"http://ello.us3.list-manage.com/track/click?u=3D9ad48=
+e023e0e67d4a8cda3fc9&id=3Ddc8f1f0656&e=3D4d17f3758e" style=3D"color: rgb(=
+0=2C 0=2C 1);font-size: 14px;font-weight: normal;text-decoration: underlin=
+e;" target=3D"_blank">Community Directory</a><span style=3D"font-size:14px=
+">.</span></div>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-collapse:=
+ collapse;">
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" class=3D"footerprofilemanagementContent"=
+ style=3D"border-collapse: collapse;">
+<div class=3D"footerprofilemanagementContent" style=3D"color: #AAAAAA;font=
+-family: Courier=2C &quot;Courier New&quot;=2C monospace;font-size: 11px;l=
+ine-height: 13px;text-align: left;">
+<a href=3D"http://ello.us3.list-manage1.com/track/click?u=3D9ad48e023e0e67=
+d4a8cda3fc9&id=3D1828ee5550&e=3D4d17f3758e" style=3D"color: #AAAAAA;font-=
+weight: normal;text-decoration: underline;">ello.co</a>
+</div>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-collapse:=
+ collapse;">
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" class=3D"footerprofilemanagementContent"=
+ style=3D"border-collapse: collapse;">
+<div class=3D"footerprofilemanagementContent" style=3D"color: #AAAAAA;font=
+-family: Courier=2C &quot;Courier New&quot;=2C monospace;font-size: 11px;l=
+ine-height: 13px;text-align: left;">
+If you don't want to receive <a href=3D"http://ello.us3.list-manage.com/un=
+subscribe?u=3D9ad48e023e0e67d4a8cda3fc9&id=3D4428617493&e=3D4d17f3758e&c=3Dc=
+59612a4b4" style=3D"color: #AAAAAA;font-weight: normal;text-decoration: un=
+derline;">emails</a> from Ello anymore=2C<br>
+please
+</div>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" height=3D"30" style=3D"border-collapse:=
+ collapse;">
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" class=3D"footeraddressContent" style=3D"=
+border-collapse: collapse;">
+<div class=3D"footeraddressContent" style=3D"color: #AAAAAA;font-family: C=
+ourier=2C &quot;Courier New&quot;=2C monospace;font-size: 11px;line-height=
+: 13px;text-align: left;">
+Ello=2C 688 Pine=2C Burlington=2C VT 05401
+</div>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" height=3D"60" style=3D"border-collapse:=
+ collapse;">
+</td>
+</tr>
+</table>
+<!-- // End Module: Standard Footer \\ -->
+</td>
+</tr>
+</table>
+<!-- // End Template Footer \\ -->
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</center>
+<img src=3D"http://ello.us3.list-manage.com/track/open.php?u=3D9ad48e023e0=
+e67d4a8cda3fc9&id=3Dc59612a4b4&e=3D4d17f3758e" height=3D"1" width=3D"1"><=
+/body>
+</html>
+--_----------=_MCPart_867566483--

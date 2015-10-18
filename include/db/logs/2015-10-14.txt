@@ -1,0 +1,22 @@
+Time : 23:24:54
+SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de '1' à la ligne 1
+Raw SQL : 1
+
+Time : 23:23:55
+SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'id']'' à la ligne 1
+Raw SQL : SELECT id FROM `useremail` WHERE `user_id` = 'Array['id']'
+
+Time : 22:06:14
+SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de '@abv.bg' à la ligne 1
+Raw SQL : SELECT id FROM `user` WHERE `user_email` = extralong@abv.bg
+
+Time : 22:06:01
+SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de '@abv.bg' à la ligne 1
+Raw SQL : SELECT id FROM `user` WHERE `user_email` = extralong@abv.bg
+
+Time : 21:50:57
+SQLSTATE[42S22]: Column not found: 1054 Champ 'user_name' inconnu dans field list
+Raw SQL : INSERT INTO user (user_email,user_name) VALUES (:user_email,:user_name)
+
+Time : 21:46:23
+SQLSTATE[HY000] [1045] Acc�s refus� pour l'utilisateur: 'parsemailuser'@'@localhost' (mot de passe: OUI)
