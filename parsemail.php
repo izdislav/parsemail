@@ -43,7 +43,7 @@ try
 	Debug::write('$userEmailIds',$userEmailsPerSenderDomain);
 	
 	$emailSpfPassPercent = $parsemail->getEmailsSpfPass("plamen@gmail.com");
-	Debug::write('$userEmailIds',$emailSpfPassPercent);
+	//Debug::write('$userEmailIds',$emailSpfPassPercent);
 	 
 
 } 

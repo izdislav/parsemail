@@ -1,4 +1,9 @@
 <?php
+/**
+ * 
+ * @author USER
+ *
+ */
 class user Extends Crud {
 
 	# The table you want to perform the database actions on
